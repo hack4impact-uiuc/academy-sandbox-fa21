@@ -4,6 +4,7 @@ import '../css/Home.css';
 
 // Add image file imports here
 import yousef from '../utils/images/yousef_ahmed.jpg';
+import ellie from '../utils/images/estrella_popoca.jpg';
 
 function Home() {
   const people = [
@@ -26,7 +27,7 @@ function Home() {
       {
         name: 'Ellie',
         link: '/ellie',
-        image: yousef,
+        image: ellie,
       },
     ],
     [
