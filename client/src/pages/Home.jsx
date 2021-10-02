@@ -6,6 +6,11 @@ import '../css/Home.css';
 import yousef from '../utils/images/yousef_ahmed.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
 
+import eesha from '../utils/images/eesha_barua.jpg';
+
+import grace from '../utils/images/grace_zhang.jpg';
+
+
 function Home() {
   const people = [
     [
@@ -22,7 +27,7 @@ function Home() {
       {
         name: 'Eesha',
         link: '/eesha',
-        image: yousef,
+        image: eesha,
       },
       {
         name: 'Ellie',
@@ -34,7 +39,7 @@ function Home() {
       {
         name: 'Grace',
         link: '/grace',
-        image: yousef,
+        image: grace,
       },
       {
         name: 'Jessica',
