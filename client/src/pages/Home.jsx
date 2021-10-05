@@ -5,6 +5,8 @@ import '../css/Home.css';
 // Add image file imports here
 import yousef from '../utils/images/yousef_ahmed.jpg';
 import aaron from '../utils/images/aaron_alexander.png';
+import jessica from '../utils/images/jessica_singh.jpg';
+import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
 import grace from '../utils/images/grace_zhang.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
@@ -43,7 +45,7 @@ function Home() {
       {
         name: 'Jessica',
         link: '/jessica',
-        image: yousef,
+        image: jessica,
       },
       {
         name: 'Ashwin',
