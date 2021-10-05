@@ -4,11 +4,7 @@ import '../css/Home.css';
 
 // Add image file imports here
 import yousef from '../utils/images/yousef_ahmed.jpg';
-<<<<<<< HEAD
 import ellie from '../utils/images/estrella_popoca.jpg';
-=======
-import aaron from '../utils/images/aaron_alexander.png';
->>>>>>> 5ba23f318e98bc7db65552b575119362e772b3ea
 import jessica from '../utils/images/jessica_singh.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
