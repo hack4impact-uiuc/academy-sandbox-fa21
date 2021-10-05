@@ -9,7 +9,6 @@ import jessica from '../utils/images/jessica_singh.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
 import grace from '../utils/images/grace_zhang.jpg';
-import danielle from '../utils/images/danielle_yang.PNG';
 import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
 
 function Home() {
