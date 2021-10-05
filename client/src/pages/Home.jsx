@@ -4,7 +4,13 @@ import '../css/Home.css';
 
 // Add image file imports here
 import yousef from '../utils/images/yousef_ahmed.jpg';
+<<<<<<< HEAD
 import jessica from '../utils/images/jessica_singh.jpg';
+=======
+import danielle from '../utils/images/danielle_yang.PNG';
+import eesha from '../utils/images/eesha_barua.jpg';
+import grace from '../utils/images/grace_zhang.jpg';
+>>>>>>> 53fc20e67c792fc7e6f3b0c3e4915961d1bf8b0f
 
 function Home() {
   const people = [
@@ -22,7 +28,7 @@ function Home() {
       {
         name: 'Eesha',
         link: '/eesha',
-        image: yousef,
+        image: eesha,
       },
       {
         name: 'Ellie',
@@ -34,7 +40,7 @@ function Home() {
       {
         name: 'Grace',
         link: '/grace',
-        image: yousef,
+        image: grace,
       },
       {
         name: 'Jessica',
@@ -49,7 +55,7 @@ function Home() {
       {
         name: 'Danielle',
         link: '/danielle',
-        image: yousef,
+        image: danielle,
       },
     ],
   ];
