@@ -4,7 +4,15 @@ import '../css/Home.css';
 
 // Add image file imports here
 import yousef from '../utils/images/yousef_ahmed.jpg';
+<<<<<<< HEAD
 import ellie from '../utils/images/estrella_popoca.jpg';
+=======
+import jessica from '../utils/images/jessica_singh.jpg';
+import danielle from '../utils/images/danielle_yang.PNG';
+import eesha from '../utils/images/eesha_barua.jpg';
+import grace from '../utils/images/grace_zhang.jpg';
+import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
+>>>>>>> bc32f307a52a27faab56a8446010b0fffdec51c7
 
 function Home() {
   const people = [
@@ -17,12 +25,12 @@ function Home() {
       {
         name: 'Anthony',
         link: '/anthony',
-        image: yousef,
+        image: anthony,
       },
       {
         name: 'Eesha',
         link: '/eesha',
-        image: yousef,
+        image: eesha,
       },
       {
         name: 'Ellie',
@@ -34,12 +42,12 @@ function Home() {
       {
         name: 'Grace',
         link: '/grace',
-        image: yousef,
+        image: grace,
       },
       {
         name: 'Jessica',
         link: '/jessica',
-        image: yousef,
+        image: jessica,
       },
       {
         name: 'Ashwin',
@@ -49,7 +57,7 @@ function Home() {
       {
         name: 'Danielle',
         link: '/danielle',
-        image: yousef,
+        image: danielle,
       },
     ],
   ];
