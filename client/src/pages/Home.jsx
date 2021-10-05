@@ -8,6 +8,7 @@ import aaron from '../utils/images/aaron_alexander.png';
 import eesha from '../utils/images/eesha_barua.jpg';
 import grace from '../utils/images/grace_zhang.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
+import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
 
 function Home() {
   const people = [
@@ -20,7 +21,7 @@ function Home() {
       {
         name: 'Anthony',
         link: '/anthony',
-        image: yousef,
+        image: anthony,
       },
       {
         name: 'Eesha',
