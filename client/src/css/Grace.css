@@ -40,6 +40,13 @@
 .facts {
     background-color: #10435c;
     color: #fdf1e8;
+    padding-bottom: 20px;
+}
+
+.videos {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
 
 .left {
@@ -48,6 +55,7 @@
     width: 40%;
     float: left;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .right {
@@ -56,8 +64,15 @@
     width: 40%;
     float: right;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 img {
     border-radius: 0%;
+}
+
+.subheading {
+    background-color: #fdf1e8;
+    text-align:center;
+    color: #fdf1e8;
 }

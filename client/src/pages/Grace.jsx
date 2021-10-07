@@ -32,14 +32,15 @@ function Grace() {
           </ul>
         </div>
       </div>
-      <div>
-        <h2> Clips! </h2>
-        <span> 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8bR1glLPtaY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/m3ewe2uF6O4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </span>
+      <div className = "subheading">
+        <h2> ??? </h2>
       </div>
-      
+      <div className = "videos"> 
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/ThE2Ap9RPz8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/gLDSU36nNls" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/ZWT9K5rRmv0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/8bR1glLPtaY?start=18" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      </div>
     </>
   );
 }
