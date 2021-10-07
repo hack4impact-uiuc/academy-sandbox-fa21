@@ -10,7 +10,7 @@ import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
 import grace from '../utils/images/grace_zhang.jpg';
 import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
-import ashwin from '../utils/images/ashwin_saxena.jpg';
+import ashwin from '../utils/images/ashwin_saxena.jpeg';
 
 function Home() {
   const people = [
