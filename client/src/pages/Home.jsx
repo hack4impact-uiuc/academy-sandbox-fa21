@@ -71,6 +71,7 @@ function Home() {
               {row.map((person) => (
                 <td key={person.name} style={{ textAlign: 'center' }}>
                   <img
+                    className="headshots"
                     alt={person.name}
                     src={person.image}
                     width="120"
