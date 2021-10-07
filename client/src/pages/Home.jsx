@@ -5,6 +5,7 @@ import '../css/Home.css';
 // Add image file imports here
 import yousef from '../utils/images/yousef_ahmed.jpg';
 import aaron from '../utils/images/aaron_alexander.png';
+import ellie from '../utils/images/estrella_popoca.jpg';
 import jessica from '../utils/images/jessica_singh.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
@@ -32,7 +33,7 @@ function Home() {
       {
         name: 'Ellie',
         link: '/ellie',
-        image: yousef,
+        image: ellie,
       },
     ],
     [
