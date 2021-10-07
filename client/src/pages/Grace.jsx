@@ -7,11 +7,39 @@ function Grace() {
   return (
     <>
       <div className = "banner">
-        <img src="https://images8.alphacoders.com/685/685929.png" alt="Mushishi Wallpaper" width="100%" height="400px"/>       
+        <img src="https://images8.alphacoders.com/685/685929.png" alt="Mushishi Wallpaper" id="mushishi_wallpaper"/>       
         <div className = "header"> ~ Grace Zhang ~ </div>
         <div className = "intro"> Hello! I'm Grace, a freshman in CS. </div>
       </div>
-
+      <div className = "divider"></div>
+      <div className = "facts">
+        <div className = "left">
+          <h2> Random Facts </h2>
+          <ul>
+            <li> Currently maintaining 8 boxes of cheerios in my dorm at all times </li>
+            <li> I wake up at 6:30 every morning (by choice~) </li>
+            <li> 120+ games installed on my phone at the moment T_T </li>
+            <li> FAR's dining hall &gt; PAR &gt;&gt;&gt; ISR </li>
+          </ul>
+        </div>
+        <div className = "right">
+          <h2> Pursuits </h2>
+          <ul>
+            <li> Badminton! I'm still a beginner though </li>
+            <li> Learning Studio Ghibli songs on the piano (my favorite is Princess Mononke's theme song) </li>
+            <li> Determined to get back into reading. Just waiting for Grainger to process my book requests T_T </li>
+            <li> Goal: eat at every restaurant here by the end of the school year~ </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2> Clips! </h2>
+        <span> 
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8bR1glLPtaY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/m3ewe2uF6O4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </span>
+      </div>
+      
     </>
   );
 }
