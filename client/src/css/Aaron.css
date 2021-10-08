@@ -14,12 +14,21 @@ h1 {
 }
 
 body {
-  background-color: #DAAD86;
+  background-color: #daad86;
 }
 .animated {
   animation: shapeIn 1s;
 }
-@keyframes shapeIn { from {opacity: 0; transform:translateY(-20px);} to {opacity: 1; transform:translateY(0);} }
+@keyframes shapeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 hr {
   border: 2px dashed black;
@@ -62,7 +71,7 @@ hr {
 }
 
 .links {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .intenseThought {
@@ -72,12 +81,11 @@ hr {
   margin-right: 80px;
   margin-bottom: 4em;
   box-shadow: 1px 1px 20px black;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .intenseThought:hover {
   width: 22%;
-
 }
 
 .bruh {
