@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+h1,
+h2,
+p,
+Table {
+  font-family: 'Inter', sans-serif;
+  margin: 20 auto;
+  text-align: center;
+}
+
+h3,
+h4,
+h5 {
+    font-family: 'Inter', sans-serif;
+    margin: 20 auto;
+}
+
+h1 {
+  padding-top: 15vh;
+  font-size: 60;
+}
+
+h2 {
+    padding-top: 5vh;
+    font-size: 40;
+}
+
+h3 {
+    padding-top: 3vh;
+    font-size: 30;
+}
+
+h4 {
+    padding-top: 2vh;
+    font-size: 20;
+}
+
+h5 {
+    padding-top: 1vh;
+    font-size: 15;
+}
+
+p {
+  padding-top: 2em;
+}
+
+tr > td {
+  padding-bottom: 2em;
+}
+
+td {
+  padding: 2em;
+}
+
+img {
+  border-radius: 50%;
+}
