@@ -2,19 +2,26 @@
 import React from 'react';
 
 import '../css/Home.css';
+import '../css/Anthony.css';
 import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
 
 function Anthony() {
   return (
     <>
-    <h1>
-        Anthony
-    </h1>
-    <h2>
-        <a href="https://www.facebook.com/profile.php?id=100072821919133">Facebook</a> 
-        <a href="https://www.instagram.com/saxytony/">Instagram</a> 
-        <a href="https://www.linkedin.com/in/acruzmacedo/">LinkedIn</a> 
-    </h2>
+    <div className="header">
+        <div className="header-content">
+        <h1 className="header-name">
+            Anthony Cruz Macedo 
+        </h1>
+        <h2>
+            <div className="header-links">
+            <a href="https://www.facebook.com/profile.php?id=100072821919133">Facebook </a>  
+            <a href="https://www.instagram.com/saxytony/">Instagram </a> 
+            <a href="https://www.linkedin.com/in/acruzmacedo/">LinkedIn </a> 
+            </div>
+        </h2>
+        </div>
+    </div>
     <img src={anthony} 
         alt="anthony headshot" 
         width = "200"
