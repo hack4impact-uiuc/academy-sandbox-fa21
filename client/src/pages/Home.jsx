@@ -3,7 +3,6 @@ import { Table } from 'reactstrap';
 import '../css/Home.css';
 
 // Add image file imports here
-import yousef from '../utils/images/yousef_ahmed.jpg';
 import aaron from '../utils/images/aaron_alexander.png';
 import ellie from '../utils/images/estrella_popoca.jpg';
 import jessica from '../utils/images/jessica_singh.jpg';
