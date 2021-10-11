@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 
-import '../css/Home.css';
+import '../css/Ellie.css';
 
 function Ellie() {
   return (

@@ -3,13 +3,14 @@ import { Table } from 'reactstrap';
 import '../css/Home.css';
 
 // Add image file imports here
-import yousef from '../utils/images/yousef_ahmed.jpg';
 import aaron from '../utils/images/aaron_alexander.png';
+import ellie from '../utils/images/estrella_popoca.jpg';
 import jessica from '../utils/images/jessica_singh.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
 import grace from '../utils/images/grace_zhang.jpg';
 import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
+import ashwin from '../utils/images/ashwin_saxena.jpeg';
 
 function Home() {
   const people = [
@@ -32,7 +33,7 @@ function Home() {
       {
         name: 'Ellie',
         link: '/ellie',
-        image: yousef,
+        image: ellie,
       },
     ],
     [
@@ -49,7 +50,7 @@ function Home() {
       {
         name: 'Ashwin',
         link: '/ashwin',
-        image: yousef,
+        image: ashwin,
       },
       {
         name: 'Danielle',
