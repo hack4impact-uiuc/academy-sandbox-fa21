@@ -11,7 +11,6 @@ function Aaron() {
         <h2 className="sub-heading">
           hack4impact academy member and future software developer
         </h2>
-        <hr></hr>
         <div className="navBar">
           <h2>
             <span className="links">bio</span> |{' '}
@@ -19,7 +18,6 @@ function Aaron() {
             <span className="links">projects</span>
           </h2>
         </div>
-        <hr className="bottomBar"></hr>
         <img
           src="https://i.ibb.co/XS1m7Fc/aaron-thinking.png"
           alt="aaron-thinking"
@@ -30,18 +28,9 @@ function Aaron() {
           There'll be more content in the future, but for now this is the best
           that I can do. Hooray!
         </p>
-        <hr className="bruh"></hr>
-        <h2 className="categories">my goals</h2>
-        <hr className="bruh"></hr>
-        <p className="innardsTwo"> HUSTLE and GRIND my way to the top</p>
-        <p className="innardsTwo">
-          Own Microsoft, Sony, Nintendo, and Amazon by the time I'm 25
-        </p>
-        <p className="innardsTwo">Be 6'4" and RIPPED by the time I'm 25</p>
-        <p className="innardsTwo">
-          Relationship goals... I don't need one. The only lifelong partner I
-          need is my TRILLION-DOLLAR NET WORTH
-        </p>
+        <p className="innards">Favorite song right now: "Under the Bridge" by Red Hot Chili Peppers</p>
+        <p className="innards">Favorite food right now: Chicken dumpling soup at the Ike. Best-tasting food thus far</p>
+        <p className="innards">Favorite album: Axis Bold as Love by Jimi Hendrix, the only album I have on vinyl thus far</p>
       </div>
     </>
   );

@@ -31,11 +31,10 @@ body {
 }
 
 hr {
-  border: 2px dashed black;
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: -4px;
+  border: 1px solid black;
+  width: 30%;
+  margin-left: 3vh;
+  margin-bottom: -1vh;
 }
 
 .main-heading {
@@ -43,18 +42,19 @@ hr {
   font-weight: 600;
   font-size: 300%;
   display: flex;
-  justify-content: center;
-  margin-left: 2%;
-  margin-top: -5rem;
+  justify-content: flex-start;
+  margin-left: 4vh;
+  margin-top: -11vh;
 }
 
 .sub-heading {
   font-family: 'Quicksand', sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 1vh;
   font-size: 120%;
+  margin-left: 3vh;
 }
 
 .bottomBar {
@@ -66,8 +66,10 @@ hr {
   display: flex;
   flex-direction: row;
   font-size: 90%;
-  justify-content: center;
+  justify-content: flex-start;
   word-spacing: 15px;
+  margin-left: 3vh;
+  margin-top: -3vh;
 }
 
 .links {
@@ -78,14 +80,10 @@ hr {
   width: 20%;
   display: flex;
   float: right;
-  margin-right: 80px;
-  margin-bottom: 4em;
+  margin-right: 15vh;
+  margin-bottom: 4vh;
   box-shadow: 1px 1px 20px black;
   transition: all 0.3s ease;
-}
-
-.intenseThought:hover {
-  width: 22%;
 }
 
 .bruh {
@@ -99,9 +97,10 @@ hr {
 .innards {
   font-family: 'Quicksand', sans-serif;
   display: flex;
-  justify-content: flex-start;
-  padding: 2em;
-  font-size: 110%;
+  text-align: left;
+  font-size: 120%;
+  padding: 3vh;
+  margin-top: -1vh;
 }
 
 .links:hover {
