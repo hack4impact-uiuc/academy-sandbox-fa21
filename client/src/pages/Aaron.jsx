@@ -28,9 +28,17 @@ function Aaron() {
           There'll be more content in the future, but for now this is the best
           that I can do. Hooray!
         </p>
-        <p className="innards">Favorite song right now: "Under the Bridge" by Red Hot Chili Peppers</p>
-        <p className="innards">Favorite food right now: Chicken dumpling soup at the Ike. Best-tasting food thus far</p>
-        <p className="innards">Favorite album: Axis Bold as Love by Jimi Hendrix, the only album I have on vinyl thus far</p>
+        <p className="innards">
+          Favorite song right now: "Under the Bridge" by Red Hot Chili Peppers
+        </p>
+        <p className="innards">
+          Favorite food right now: Chicken dumpling soup at the Ike.
+          Best-tasting food thus far
+        </p>
+        <p className="innards">
+          Favorite album: Axis Bold as Love by Jimi Hendrix, the only album I
+          have on vinyl thus far
+        </p>
       </div>
     </>
   );
