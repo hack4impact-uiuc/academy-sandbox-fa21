@@ -1,128 +1,127 @@
 body {
-    margin: 0%;
-    padding: 0%;
-    background-color: #e7eaf6;
+  margin: 0%;
+  padding: 0%;
+  background-color: #e7eaf6;
 }
 
 h2 {
-    word-spacing: em;
-    font-family: Georgia, serif;
-    font-size: 150%;
-    letter-spacing: 12px;
-    word-spacing: 0px;
-    color: #113f67;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    margin-left: 1%;
-    margin-top: 1em;
-    margin-bottom: .5em;
+  word-spacing: em;
+  font-family: Georgia, serif;
+  font-size: 150%;
+  letter-spacing: 12px;
+  word-spacing: 0px;
+  color: #113f67;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 1%;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 .header {
-    display: flex;
-    background-color: #989c9e;
+  display: flex;
+  background-color: #989c9e;
 }
 
 .headshot {
-    border-radius: 50%;
-    margin: 1em;
-    border: .25em solid #3a3a3a;
+  border-radius: 50%;
+  margin: 1em;
+  border: 0.25em solid #3a3a3a;
 }
 
 .next-to-headshot {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0em;
-    border-top: 0em;
-    flex-grow: 100%;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0em;
+  border-top: 0em;
+  flex-grow: 100%;
+  align-items: center;
+  width: 100%;
 }
 
 .name-in-header {
-    margin: 0 auto;
-    border: 0 auto;
-    padding-top: 2%;
-    font-size: 2em;
-    justify-content: center;
-    letter-spacing: 8px;
-    word-spacing: 20px;
-    font-family: Georgia, serif;
-    font-size: 150%;
-    letter-spacing: 12px;
-    word-spacing: 0px;
-    color: #0f0f0f;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: small-caps;
-    text-transform: uppercase;
+  margin: 0 auto;
+  border: 0 auto;
+  padding-top: 2%;
+  font-size: 2em;
+  justify-content: center;
+  letter-spacing: 8px;
+  word-spacing: 20px;
+  font-family: Georgia, serif;
+  font-size: 150%;
+  letter-spacing: 12px;
+  word-spacing: 0px;
+  color: #0f0f0f;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
 }
 
 .link {
-    font-family: Georgia, serif;
-    font-size: 20px;
-    margin: 20px;
-    letter-spacing: .1em;
-    word-spacing: 1em;
-    color: #113f67;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    text-transform: lowercase;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 0.1em;
+  word-spacing: 1em;
+  color: #113f67;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: lowercase;
 }
 
 .about-me-p {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    margin-left: 1%;
-    font-family: Georgia, serif;
-    font-size: 1.5em;
-    font-weight: 100;
-    color: rgba(0, 0, 0, 1);
-    text-transform: none;
-    font-style: normal;
-    text-decoration: none;    
-    line-height: 2em;
-    letter-spacing: 0px; 
-
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-left: 1%;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 2em;
+  letter-spacing: 0px;
 }
 
 .picures {
-    display: flex;
-    border: 10%;
-    flex: flex-grow;
-    text-align: left;
+  display: flex;
+  border: 10%;
+  flex: flex-grow;
+  text-align: left;
 }
 
 .pictures-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
 }
 
 .memes {
-    border: .5em solid #3a3a3a;
-    border-radius: 1em;
-    margin: .2em;
-    width: 23%;
-    height: 23%;
+  border: 0.5em solid #3a3a3a;
+  border-radius: 1em;
+  margin: 0.2em;
+  width: 23%;
+  height: 23%;
 }
 
 .videos {
-    display: flex;
-    margin: .2em;
-    justify-content: center;
+  display: flex;
+  margin: 0.2em;
+  justify-content: center;
 }
 
 iframe {
-    width: 25%;
-    height: 23%;
-    margin: .2em;
-    border: .5em solid #3a3a3a;
-    border-radius: 1em;
+  width: 25%;
+  height: 23%;
+  margin: 0.2em;
+  border: 0.5em solid #3a3a3a;
+  border-radius: 1em;
 }
