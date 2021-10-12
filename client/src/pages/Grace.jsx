@@ -12,7 +12,7 @@ function Grace() {
           alt="Mushishi Wallpaper"
           id="mushishi_wallpaper"
         />
-        <div className="header"> ~ Grace Zhang ~ </div>
+        <div className="header"> Grace Zhang </div>
         <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
       </div>
       <div className="divider"></div>
