@@ -3,13 +3,14 @@ import { Table } from 'reactstrap';
 import '../css/Home.css';
 
 // Add image file imports here
-import yousef from '../utils/images/yousef_ahmed.jpg';
 import aaron from '../utils/images/aaron_alexander.png';
+import ellie from '../utils/images/estrella_popoca.jpg';
 import jessica from '../utils/images/jessica_singh.jpg';
 import danielle from '../utils/images/danielle_yang.PNG';
 import eesha from '../utils/images/eesha_barua.jpg';
 import grace from '../utils/images/grace_zhang.jpg';
 import anthony from '../utils/images/anthony_cruzmacedo1.jpg';
+import ashwin from '../utils/images/ashwin_saxena.jpeg';
 
 function Home() {
   const people = [
@@ -32,7 +33,7 @@ function Home() {
       {
         name: 'Ellie',
         link: '/ellie',
-        image: yousef,
+        image: ellie,
       },
     ],
     [
@@ -49,7 +50,7 @@ function Home() {
       {
         name: 'Ashwin',
         link: '/ashwin',
-        image: yousef,
+        image: ashwin,
       },
       {
         name: 'Danielle',
@@ -61,25 +62,24 @@ function Home() {
 
   return (
     <>
-      <h1>Academy Sandbox</h1>
-      <p>a place to practice what you learn</p>
+      <h1 className="home-title">Academy Sandbox</h1>
+      <p className="home-subtitle">a place to practice what you learn</p>
 
-      <Table style={{ margin: 'auto' }}>
+      <Table className="home-table">
         <tbody>
           {people.map((row, index) => (
-            <tr key={index}>
+            <tr className="home-table-row" key={index}>
               {row.map((person) => (
                 <td key={person.name} style={{ textAlign: 'center' }}>
                   <img
+                    className="headshots"
                     alt={person.name}
                     src={person.image}
                     width="120"
                     height="120"
                   />
                   <br />
-                  <a id="profile-name" href={person.link}>
-                    {person.name}
-                  </a>
+                  <a href={person.link}>{person.name}</a>
                 </td>
               ))}
             </tr>
