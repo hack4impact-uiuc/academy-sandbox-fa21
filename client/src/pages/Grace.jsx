@@ -14,6 +14,12 @@ function Grace() {
         />
         <div className="header"> Grace Zhang </div>
         <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
+        <div className="links">
+          <p> Email: gracewz2@illinois.edu </p>
+          <p> Phone: (408)-658-5025 </p>
+          <p> <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Facebook </a> </p>
+          <p> <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Instagram </a> </p>
+        </div>
       </div>
       <div className="divider"></div>
       <div className="facts">
@@ -35,7 +41,7 @@ function Grace() {
             <li> Badminton! I'm still a beginner though </li>
             <li>
               {' '}
-              Learning Studio Ghibli songs on the piano (my favorite is Princess
+              Learning <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Studio Ghibli songs </a> on the piano (my favorite is Princess
               Mononke's theme song){' '}
             </li>
             <li>
@@ -50,9 +56,8 @@ function Grace() {
           </ul>
         </div>
       </div>
-      <div className="subheading">
-        <h2> ??? </h2>
-      </div>
+      <div></div>
+      <div className="divider"></div>
       <div className="videos">
         <iframe
           width="450"

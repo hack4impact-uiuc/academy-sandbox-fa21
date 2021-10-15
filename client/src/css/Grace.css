@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.link {
+  color: #fdf1e8;
+}
+
 .intro {
   text-align: center;
   color: #fdf1e8;
@@ -48,7 +52,8 @@
   padding-top: 20px;
   line-height: 23px;
   color: #fdf1e8;
-  padding-bottom: 20px;
+  padding-bottom: 250px;
+  margin-bottom: 20px;
 }
 
 .videos {
@@ -73,6 +78,20 @@
   float: right;
   height: 200px;
   margin-bottom: 20px;
+}
+
+.links {
+  color: #fdf1e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #10435c;
+  z-index: 20;
+  margin-top:-75px;
+}
+
+.links p {
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .subheading {
