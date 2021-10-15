@@ -2,10 +2,24 @@
 import React from 'react';
 
 import '../css/Eesha.css';
+import cave from '../utils/images/cave_of_two_lovers.png';
+import la from '../utils/images/tui_and_la.png';
+import weijin from '../utils/images/weijin_and_jinwei.png';
+import sunset from '../utils/images/sunset.jpg'
 
 function Eesha() {
   return (
     <>
+    <div className="hero-image">
+      <div className="hero-text">
+        <h1>Eesha's Page</h1>
+        <p>WHY ZUTARA WAS ROBBED</p>
+      </div>
+    </div>
+    <img 
+      src={sunset}
+      alt="sunset"
+    ></img>
       <h1>Eesha's Page</h1>
       <h1>WHY ZUTARA WAS ROBBED</h1>
           <h3>Explained congress-prep style by Eesha Barua and other parties.</h3>
@@ -34,7 +48,12 @@ function Eesha() {
               <h5>“You've already met them, actually. Tui and La, your moon and ocean, have always circled each other in an 
                 eternal dance. They balance each other. Push and Pull. Life and Death. Good and Evil. Yin and Yang.”</h5>
 
-              <img src="../utils/images/tui_and_la.png" alt="tui and la" />
+                <center><img
+                    alt={la}
+                    src={la}
+                    width="600"
+                    height="600"
+                  /></center>
               <h5>This imagery is pretty vocal in the implications of romance between the two spirits. Furthermore, the 
                 Daoist philosophy of Yin and Yang strongly implies that balance ideally exists between two beings that 
                 complement each other. The Avatar is the SINGULAR exception to this norm, as the Avatar is <b> expected to 
@@ -45,7 +64,12 @@ function Eesha() {
               <h5>A war divides their people</h5> 
               <h5>And a mountain divides them apart</h5> 
               <h5>Built a path to be together..."</h5>
-              <img src="../utils/images/cave_of_two_lovers.png" alt= "cave of two lovers" />
+              <center><img
+                    alt={cave}
+                    src={cave}
+                    width="600"
+                    height="600"
+                  /></center>
               <h5>Again, the imagery here quite directly signifies that romance blooms in beings from opposite worlds but 
                 parallel characteristics, another nod to Yin and Yang.</h5>
           <h3>The Great Divide</h3>
@@ -67,7 +91,12 @@ function Eesha() {
                   ritual and the orb's importance. Rejecting assistance, Jin Wei asked Wei Jin to take the orb back to his tribe, 
                   which Wei Jin did. Upon arriving at Gan Jin's village, however, Jin Wei's tribe arrested him for stealing the orb and 
                   imprisoned him for twenty years. Both sides claim that they will never forget the terrible injustice dealt to them by the other.</h6>
-              <img src="../utils/images/weijin_and_jinwei.png" alt= "weijin and jinwei" />
+                  <center><img
+                    alt={weijin}
+                    src={weijin}
+                    width="600"
+                    height="600"
+                  /></center>
             <h4>This episode is resolved with an (albeit phony) understanding that Wei Jin and Jin Wei had a special relationship as brothers 
               and coexisted peacefully. This nod to balance reaffirms the sheer amount of story-building power in the theme of balance in ATLA.</h4>
           <h3>Uncle Iroh’s Waterbending Move</h3>

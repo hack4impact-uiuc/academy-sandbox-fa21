@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
 h1,
 h2,
 p,
@@ -53,6 +54,3 @@ td {
   padding: 2em;
 }
 
-img {
-  border-radius: 50%;
-}
