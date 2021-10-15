@@ -21,6 +21,7 @@
 .link {
   color: #fdf1e8;
 }
+.link:hover { color: #c5b9bd;}
 
 .intro {
   text-align: center;
@@ -28,10 +29,9 @@
   font-family: 'Nanum Myeongjo', serif;
   font-size: 20px;
   position: absolute;
-  top: 255px;
+  top: 265px;
   left: 0;
   width: 100%;
-  padding: 10px;
 }
 
 #mushishi_wallpaper {
@@ -86,8 +86,9 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #10435c;
-  z-index: 20;
-  margin-top:-75px;
+  margin-top:-65px;
+  position: relative;
+  padding-bottom: 15px;
 }
 
 .links p {

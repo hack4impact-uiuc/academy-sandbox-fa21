@@ -15,10 +15,11 @@ function Grace() {
         <div className="header"> Grace Zhang </div>
         <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
         <div className="links">
-          <p> Email: gracewz2@illinois.edu </p>
-          <p> Phone: (408)-658-5025 </p>
-          <p> <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Facebook </a> </p>
-          <p> <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Instagram </a> </p>
+          <p> <a href = "mailto: gracewz2@illinois.edu" className="link">Email: gracewz2@illinois.edu</a> </p>
+          <p> <a href="tel:408-658-5025" className="link">Phone: 408-658-6025</a> </p>
+          <p> <a href="https://www.linkedin.com/in/grace-w-zhang/" className="link" target="_blank" rel="noreferrer"> LinkedIn </a> </p>
+          <p> <a href="https://www.facebook.com/drowsynights/" className="link" target="_blank" rel="noreferrer"> Facebook </a> </p>
+          <p> <a href="https://www.instagram.com/dreamsinparadise/" className="link" target="_blank" rel="noreferrer"> Instagram </a> </p>
         </div>
       </div>
       <div className="divider"></div>
@@ -41,8 +42,8 @@ function Grace() {
             <li> Badminton! I'm still a beginner though </li>
             <li>
               {' '}
-              Learning <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Studio Ghibli songs </a> on the piano (my favorite is Princess
-              Mononke's theme song){' '}
+              Learning <a href="https://www.youtube.com/watch?v=lg4i5xCMJpI" className="link" target="_blank" rel="noreferrer"> Studio Ghibli songs</a> on the piano (my favorite is <a href="https://youtu.be/lg4i5xCMJpI?t=152" className="link" target="_blank" rel="noreferrer"> Princess
+              Mononke's theme song</a>){' '}
             </li>
             <li>
               {' '}
