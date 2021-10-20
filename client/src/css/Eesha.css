@@ -1,56 +1,264 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=PT+Sans&family=PT+Sans+Caption&display=swap');
 
 
-h1,
-h2,
-p,
-Table {
-  font-family: 'Inter', sans-serif;
-  margin: 20 auto;
+.banner {
+  /* The image used */
+  background-image: url('../utils/images/eesha-img/aesthetic-clouds-2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.eesha-title {
+  font-family: 'PT Sans Caption', cursive;
+  color: aliceblue;
+  font-size: 50px;
   text-align: center;
+  padding-top: 7%;
 }
 
-h3,
-h4,
-h5 {
-    font-family: 'Inter', sans-serif;
-    margin: 20 auto;
+.eesha-text {
+  font-family: 'PT Sans', cursive;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
 
-h1 {
-  padding-top: 15vh;
-  font-size: 60;
+.eesha-text-unpadded {
+  font-family: 'PT Sans', cursive;
+  color: white;
+  padding-top: 2px;
 }
 
-h2 {
-    padding-top: 5vh;
-    font-size: 40;
+.eesha-sign-chart-h1 {
+  font-family: 'PT Sans Caption', cursive;
+  color: #a19ab5  ;
+  padding: 1px;
 }
 
-h3 {
-    padding-top: 3vh;
-    font-size: 30;
+.eesha-sign-chart-h2 {
+  font-family: 'PT Sans', cursive;
+  color: #bca4bc  ;
+  padding: 1px;
 }
 
-h4 {
-    padding-top: 2vh;
-    font-size: 20;
+.icon {
+  position: relative;
+  margin-top: -7%;
+  margin-left: 7%;
+  width: 10%;
 }
 
-h5 {
-    padding-top: 1vh;
-    font-size: 15;
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+  bottom: 8%;
+  padding: -15%;
+  margin-left: 7%;
+  max-width: 300px;
 }
 
-p {
-  padding-top: 2em;
+/* Callout header */
+.callout-header {
+  font-family: 'PT Sans Caption', cursive;
+  padding: 5px 5px;
+  background:#F8D7D7  ;
+  font-size: 30px;
+  color: white;
 }
 
-tr > td {
-  padding-bottom: 2em;
+/* Callout container/body */
+.callout-container {
+  padding: 5px;
+  background-color: #F8D7D7  ;
+  color: white
 }
 
-td {
-  padding: 2em;
+.flex-grid-container {
+  display: grid;
+  justify-content: space-between;
+  margin-top: -5%;
+  margin-left: 30%;
+  row-gap: 5px;
 }
 
+.flex-grid-container-cards {
+  display: grid;
+  justify-content: space-between;
+  margin-top: -5%;
+  margin-left: 30%;
+  margin-right: 10%;
+  row-gap: 5px;
+}
+
+.grid-one {
+  grid-column: 1;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-two {
+  grid-column: 2;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-three {
+  grid-column: 3;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-four {
+  grid-column: 1;
+  grid-row: 2;
+  width: 70%;
+}
+.grid-five {
+  grid-column: 2;
+  grid-row: 2;
+  width: 70%;
+}
+.grid-six {
+  grid-column: 3;
+  grid-row: 2;
+  width: 70%;
+}
+
+.grid-seven {
+  grid-column: 1;
+  grid-row: 3;
+  width: 70%;
+}
+
+.grid-eight {
+  grid-column: 2;
+  grid-row: 3;
+  width: 70%;
+}
+
+.grid-nine {
+  grid-column: 3;
+  grid-row: 3;
+  width: 70%;
+}
+
+.grid-1 {
+  grid-column: 1;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-2 {
+  grid-column: 2;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-3 {
+  grid-column: 3;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-4 {
+  grid-column: 4;
+  grid-row: 1;
+  width: 70%;
+}
+.grid-5 {
+  grid-column: 1;
+  grid-row: 2;
+  width: 70%;
+}
+.grid-6 {
+  grid-column: 2;
+  grid-row: 2;
+  width: 70%;
+}
+
+.grid-7 {
+  grid-column: 3;
+  grid-row: 2;
+  width: 70%;
+}
+
+.grid-8 {
+  grid-column: 4;
+  grid-row: 2;
+  width: 70%;
+}
+
+.grid-9 {
+  grid-column: 1;
+  grid-row: 3;
+  width: 70%;
+}
+
+.grid-10 {
+  grid-column: 2;
+  grid-row: 3;
+  width: 50%;
+}
+
+.grid-11 {
+  grid-column: 3;
+  grid-row: 3;
+  width: 70%;
+}
+
+.grid-12 {
+  grid-column: 4;
+  grid-row: 3;
+  width: 70%;
+}
+
+.grid-13 {
+  grid-column: 1;
+  grid-row: 4;
+  width: 70%;
+}
+
+.grid-14 {
+  grid-column: 2;
+  grid-row: 4;
+  width: 70%;
+}
+
+.grid-15 {
+  grid-column: 3;
+  grid-row: 4;
+  width: 70%;
+}
+
+.grid-16 {
+  grid-column: 4;
+  grid-row: 4;
+  width: 70%;
+}
+
+.container {
+  padding: 10% 3%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.image-stack {
+  display: grid;
+  position: relative; 
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 10%; 
+  z-index: 1; 
+  transform: rotate(90deg);
+}
+
+.img-spec {
+  width: 130%;
+  display: block;
+}
