@@ -21,7 +21,9 @@
 .link {
   color: #fdf1e8;
 }
-.link:hover { color: #c5b9bd;}
+.link:hover {
+  color: #c5b9bd;
+}
 
 .intro {
   text-align: center;
@@ -88,11 +90,10 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #10435c;
-  margin-top:-65px;
+  margin-top: -55px;
   position: relative;
-  padding-bottom: 15px;
-  padding-left:60px;
-  padding-right:60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .links p {
