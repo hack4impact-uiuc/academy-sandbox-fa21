@@ -24,32 +24,46 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.8;
 }
-.border {
-  flex: 1;
-  border-style: solid;
-  border-width: 6px;
-  border-color: #287ec7;
-  margin: 0 50 150 50;
-  padding-bottom: 2.5%;
-  height: 350px;
-  float: left;
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(1, 5vw);
+  /* grid-gap: 0px; */
 }
-
-.jessica-content {
+.gallery__img {
   width: 100%;
-  height: auto;
-  float: left;
-  display: flex;
-  flex-direction: row;
+  height: 100%;
+  object-fit: cover;
 }
-.sushi-image {
-  flex: 1;
+.sushi-item {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
-.badminton-image {
-  flex: 1;
+.badminton-item {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
-.mic-image {
-  flex: 1;
+.mic-item {
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.border-item {
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: #287ec7;
+  height: 400px;
+  margin: 0 50 150 50;
+  float: left; */
 }
 .main {
   color: rgb(216, 76, 99);

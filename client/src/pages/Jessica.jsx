@@ -6,6 +6,10 @@ import '../css/Jessica.css';
 import sushi from '../utils/images/sushi.jpg';
 import mic from '../utils/images/mic.PNG';
 import badminton from '../utils/images/badminton.PNG';
+// import dancing from '../utils/images/dancing.png';
+// import yellowstone from '../utils/images/yellowston.png';
+// import banff from '../utils/images/banff.png';
+// import elephant from '../utils/images/elephant.png';
 
 function Jessica() {
   return (
@@ -16,17 +20,21 @@ function Jessica() {
           <h1>Jessica Singh</h1>
         </div>
       </div>
+      
       <div className="introduction">
         <h2>H4i Academy Member and Freshman in CS</h2>
       </div>
-      <div className="jessica-content">
-        <div className="sushi-image">
+      <div className="gallery">
+        <figure className="gallery__item sushi-item">
           <img src={sushi} alt="Sushi" height="400"></img>
-        </div>
-        <div className="badminton-image">
+        </figure>
+        <figure className="gallery__item badminton-item">
           <img src={badminton} alt="Badminton" height="400"></img>
-        </div>
-        <div className="border">
+        </figure>
+        <figure className="gallery__item mic-item">
+          <img src={mic} alt="Mic" height="400"></img>
+        </figure>
+        <figure className="gallery__item border-item">
           <p>
             <b> Hi! Some things about me: </b>{' '}
           </p>
@@ -34,27 +42,23 @@ function Jessica() {
             <ul>
               <li>
                 {' '}
-                I've been learning Hindustani Classical since 3rd grade and I
-                was in choir{' '}
+                I like singing, dancing, sketching, and paiting{' '}
               </li>
               <li>
                 {' '}
-                My favorite cuisines are Japanese, Thai, Greek, Peruvian, etc.{' '}
+                I love sushi{' '}
               </li>
               <li>
                 {' '}
-                I've done Taekwondo, fencing, badminton, and tennis for a while{' '}
+                I've done Taekwondo, fencing, badminton, and tennis{' '}
               </li>
               <li>
                 {' '}
-                I've lived in Michigan, North Carolina, India, and Washington{' '}
+                I love travelling{' '}
               </li>
             </ul>
           </div>
-        </div>
-        <div className="mic-image">
-          <img src={mic} alt="Mic" height="400"></img>
-        </div>
+        </figure>
       </div>
     </div>
   );
