@@ -20,7 +20,7 @@ import fourswords from '../utils/images/eesha-img/4swords.jpg';
 import sixwands from '../utils/images/eesha-img/6wands.jpg';
 import fourcups from '../utils/images/eesha-img/4cups.jpg';
 import fiveswords from '../utils/images/eesha-img/5swords.jpg';
-import blocked from '../utils/images/eesha-img/blocked.png';
+import deviloverstrength from '../utils/images/eesha-img/devil over strength.png';
 import lovers from '../utils/images/eesha-img/lovers.jpg';
 import tower from '../utils/images/eesha-img/tower.jpg';
 
@@ -116,41 +116,160 @@ function Eesha() {
       </div>
 
       <div className="flex-grid-container-cards">
+        
         <div className="grid-4">
-          <img src={eightwands} alt="8 of wands" />
+          <div className="tooltip">
+            <img src={eightwands} alt="8 of wands" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">10 || outcome || the 8 of wands</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> representative of where the situation is headed and if/how the issue will be resolved</p>
+                  <p className="eesha-card-text"><b>meaning</b> rapid action, movement, quick decisions</p>
+                  <p className="eesha-card-text">perhaps important news will be coming on 
+                  your way, and you may experience a sudden, yet steady positive growth. </p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
-
+        
         <div className="grid-6">
-          <img src={chariot} alt="the chariot" />
+          <div className="tooltip">
+            <img src={chariot} alt="the chariot" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">5 || above || the chariot</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> reflects the querent’s goal, aspiration or best outcome with regards to the situation</p>
+                  <p className="eesha-card-text"><b>meaning</b> success, ambition, determination, willpower, control, self-discipline, focus</p>
+                  <p className="eesha-card-text">you should pursue the plan with a structured and ordered approach. </p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
 
         <div className="grid-8">
-          <img src={fourswords} alt="4 of swords" />
+          <div className="tooltip">
+            <img src={fourswords} alt="4 of swords" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">9 || hopes and/or fears || four of swords</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> hopes and fears are closely intertwined, therefore that which we hope for may also be that which we fear</p>
+                  <p className="eesha-card-text"><b>meaning</b> rest, relaxation, peace, sanctuary, recuperation, self-protection, rejuvenation</p>
+                  <p className="eesha-card-text"> The Four of Swords is a moment of rest. Whether this is from a choice to withdraw, or whether it is from pure exhaustion, it is not clear.</p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
 
         <div className="grid-9">
-          <img src={sixwands} alt="6 of wands" />
+          <div className="tooltip">
+            <img src={sixwands} alt="6 of wands" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">3 || the past || six of wands</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> represents the events that have lead up to the present situation and may provide some indication of how the challenge came about.</p>
+                  <p className="eesha-card-text"><b>meaning</b> success, victory, triumph, rewards, recognition, praise, acclaim, pride</p>
+                  <p className="eesha-card-text"> the card is indicative that you have managed to harness the strengths and talents that you have within you in an attempt to bring a particularly successful outcome in your life.</p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
-
+        
         <div className="grid-10">
-          <img src={blocked} alt="blocked" />
+          <div className="tooltip">
+            <img src={deviloverstrength} alt="d over s" width="264" height="264"/>
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">1 || the present || strength</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> what is happening to the querent at the present time</p>
+                  <p className="eesha-card-text"><b>meaning</b> inner strength, bravery, compassion, focus</p>
+                  <p className="eesha-card-text"> Your resilience will greatly aid you, and your fearlessness means that you should have no issues speaking your mind. </p>
+                </div>
+                <div className="card-callout-header">2 || the challenge || the devil</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> represents the immediate challenge or problem facing the querent </p>
+                  <p className="eesha-card-text"><b>meaning</b> oppression, addiction, obsession, dependency, excess, powerlessness, limitations </p>
+                  <p className="eesha-card-text"> addiction to substances or material pleasures can also be the reason for your feelings of powerlessness and entrapment.</p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
 
+        
         <div className="grid-11">
-          <img src={fourcups} alt="4 of cups" />
+          <div className="tooltip">
+            <img src={fourcups} alt="4 of cups" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">4 || the future || four of cups</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> represents what is likely to occur within the next few weeks or even months.</p>
+                  <p className="eesha-card-text"><b>meaning</b> apathy, contemplation, feeling disconnected, melancholy, boredom, indifference, discontent</p>
+                  <p className="eesha-card-text"> you are feeling apathetic - regardless of what happens, whether the day is good or bad, none of it matters to you.</p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
 
+        
         <div className="grid-12">
-          <img src={fiveswords} alt="5 of swords" />
+          <div className="tooltip">
+            <img src={fiveswords} alt="5 of swords" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">8 || external influences || five of swords</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> highlights the people, energies or events which will affect the outcome of the question.</p>
+                  <p className="eesha-card-text"><b>meaning</b> unbridled ambition, win at all costs, sneakiness</p>
+                  <p className="eesha-card-text"> what is more important to you? mutual progress, or winning?</p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
 
         <div className="grid-14">
-          <img src={lovers} alt="lovers" />
+          <div className="tooltip">
+            <img src={lovers} alt="lovers" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">6 || below || the lovers</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> that which is within the subconscious realm of the querent and delves much deeper into the core foundation of the situation.</p>
+                  <p className="eesha-card-text"><b>meaning</b> love, unions, partnerships, relationships, choices, romance, balance, unity</p>
+                  <p className="eesha-card-text"> he trust and the unity that the lovers have gives each of them confidence and strength, empowering the other.</p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+        
+        <div className="grid-16">
+          <div className="tooltip">
+            <img src={tower} alt="tower" />
+            <span className="tooltiptext">
+              <div className="card-callout">
+                <div className="card-callout-header">7 || advice || the tower</div>
+                <div className="card-callout-container">
+                  <p className="eesha-card-text"><b>position</b> takes into account all that is happening within the querent’s life and presents a recommendation.</p>
+                  <p className="eesha-card-text"><b>meaning</b> sudden upheaval, broken pride, disaster,</p>
+                  <p className="eesha-card-text"> the old ways are no longer useful, and you must find another set of beliefs, values and processes to take their place.</p>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
 
-        <div className="grid-16">
-          <img src={tower} alt="tower" />
-        </div>
       </div>
 
       <div className="callout">
@@ -168,10 +287,20 @@ function Eesha() {
       </div>
 
       <div className="callout">
-        <div className="callout-header">my Pottermore</div>
+        <div className="callout-header">who are <b> <i> you</i></b>?</div>
         <div className="callout-container">
-          <p className="eesha-text-unpadded">i am a: ravenclaw with a beagle patronus and a ___ wand: </p>
+          <p className="eesha-text-unpadded">sites and resources</p>
         </div>
+      </div>
+
+      <div> 
+        <p>
+          <b className="eesha-text-purple">see more</b>
+          <a href="https://www.costarastrology.com/natal-chart/" className="eesha-text-purple"> Co-Star: Hyper-Personalized, Real-Time Horoscopes</a>
+          <a href="https://www.biddytarot.com/how-to-read-the-celtic-cross-tarot-spread/" className="eesha-text-purple">How to Read the Celtic Cross Tarot Spread</a>
+          <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
+          <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
+        </p>
       </div>
 
     </>
