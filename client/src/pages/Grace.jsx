@@ -2,6 +2,7 @@
 import React from 'react';
 
 import '../css/Grace.css';
+import GraceVideo from '../pages/GraceVideo.jsx'
 
 function Grace() {
   return (
@@ -60,42 +61,10 @@ function Grace() {
       <div></div>
       <div className="divider"></div>
       <div className="videos">
-        <iframe
-          width="450"
-          height="250"
-          src="https://www.youtube.com/embed/ThE2Ap9RPz8"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          width="450"
-          height="250"
-          src="https://www.youtube.com/embed/gLDSU36nNls"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          width="450"
-          height="250"
-          src="https://www.youtube.com/embed/ZWT9K5rRmv0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          width="450"
-          height="250"
-          src="https://www.youtube.com/embed/8bR1glLPtaY?start=18"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
+        <GraceVideo url = {"https://www.youtube.com/embed/ThE2Ap9RPz8"}/>
+        <GraceVideo url = {"https://www.youtube.com/embed/gLDSU36nNls"}/>
+        <GraceVideo url = {"https://www.youtube.com/embed/ZWT9K5rRmv0"}/>
+        <GraceVideo url = {"https://www.youtube.com/embed/8bR1glLPtaY?start=18"}/>
       </div>
     </>
   );
