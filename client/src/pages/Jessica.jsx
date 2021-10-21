@@ -2,24 +2,29 @@
 import React from 'react';
 
 import '../css/Jessica.css';
-import bg from '../utils/images/bg.jpg';
+// import background from '../utils/images/bg.jpg';
 import sushi from '../utils/images/sushi.jpg';
 import mic from '../utils/images/mic.PNG';
-import bm from '../utils/images/badminton.PNG';
+import badminton from '../utils/images/badminton.PNG';
 
 function Jessica() {
   return (
     <div className="main">
-      <img src={bg} alt="Mount Rainier" width="100%" height="400"></img>
-
-      <div className="name"> Jessica Singh </div>
-      <h2>H4i Academy Member and Freshman in CS</h2>
-      <div className="container">
-        <div className="image">
+      <div className="header">
+        {/* <img src={background} alt="Mount Rainier" width="100%" height="400"></img> */}
+        <div className="fullname">
+          <h1>Jessica Singh</h1>
+        </div>
+      </div>
+      <div className="introduction">
+        <h2>H4i Academy Member and Freshman in CS</h2>
+      </div>
+      <div className="jessica-content">
+        <div className="sushi-image">
           <img src={sushi} alt="Sushi" height="400"></img>
         </div>
-        <div className="image3">
-          <img src={bm} alt="Badminton" height="400"></img>
+        <div className="badminton-image">
+          <img src={badminton} alt="Badminton" height="400"></img>
         </div>
         <div className="border">
           <p>
@@ -47,7 +52,7 @@ function Jessica() {
             </ul>
           </div>
         </div>
-        <div className="image2">
+        <div className="mic-image">
           <img src={mic} alt="Mic" height="400"></img>
         </div>
       </div>
