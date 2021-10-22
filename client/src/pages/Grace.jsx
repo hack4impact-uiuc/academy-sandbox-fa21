@@ -6,13 +6,30 @@ import GraceVideo from '../pages/GraceVideo.jsx';
 import GraceLink from '../pages/GraceLink.jsx';
 
 function Grace() {
+  const links = [
+    {
+      link: 'mailto: gracewz2@illinois.edu',
+      description: 'Email:gracewz2@illinois.edu',
+    },
+    { link: 'tel:408-658-5025', description: 'Phone: 408-658-6025' },
+    {
+      link: 'https://www.linkedin.com/in/grace-w-zhang/',
+      description: 'LinkedIn',
+    },
+    { link: 'https://www.facebook.com/drowsynights/', description: 'Facebook' },
+    {
+      link: 'https://www.instagram.com/dreamsinparadise/',
+      description: 'Instagram',
+    },
+  ];
 
-  const links = [{"link":"mailto: gracewz2@illinois.edu", "description":"Email:gracewz2@illinois.edu"},
-                {"link":"tel:408-658-5025", "description":"Phone: 408-658-6025"},
-                {"link":"https://www.linkedin.com/in/grace-w-zhang/", "description":"LinkedIn"},
-                {"link":"https://www.facebook.com/drowsynights/", "description":"Facebook"},
-                {"link":"https://www.instagram.com/dreamsinparadise/", "description":"Instagram"},
-];
+  const vids = [
+    { url: 'https://www.youtube.com/embed/ThE2Ap9RPz8' },
+    { url: 'https://www.youtube.com/embed/gLDSU36nNls' },
+    { url: 'https://www.youtube.com/embed/ZWT9K5rRmv0' },
+    { url: 'https://www.youtube.com/embed/8bR1glLPtaY?start=18' },
+  ];
+
   return (
     <>
       <div className="banner">
@@ -24,13 +41,16 @@ function Grace() {
         <div className="header"> Grace Zhang </div>
         <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
         <div className="links">
-          {
-            links.map((link, i) => <GraceLink key={i} link={link.link} description={link.description} />)
-          }
-         
+          {links.map((link, i) => (
+            <GraceLink
+              key={i}
+              link={link.link}
+              description={link.description}
+            />
+          ))}
         </div>
       </div>
-      <div className="divider"/>
+      <div className="divider" />
       <div className="facts">
         <div className="left">
           <h2> Random Facts </h2>
@@ -88,14 +108,11 @@ function Grace() {
           </ul>
         </div>
       </div>
-      <div className="divider"/>
+      <div className="divider" />
       <div className="videos">
-        <GraceVideo url={'https://www.youtube.com/embed/ThE2Ap9RPz8'} />
-        <GraceVideo url={'https://www.youtube.com/embed/gLDSU36nNls'} />
-        <GraceVideo url={'https://www.youtube.com/embed/ZWT9K5rRmv0'} />
-        <GraceVideo
-          url={'https://www.youtube.com/embed/8bR1glLPtaY?start=18'}
-        />
+        {vids.map((link, i) => (
+          <GraceVideo key={i} url={link.url} />
+        ))}
       </div>
     </>
   );
