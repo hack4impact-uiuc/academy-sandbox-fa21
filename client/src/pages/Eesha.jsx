@@ -12,8 +12,6 @@ import mar from '../utils/images/eesha-img/mars.svg';
 import jup from '../utils/images/eesha-img/jupiter.svg';
 import sat from '../utils/images/eesha-img/saturn.svg';
 import ur from '../utils/images/eesha-img/uranus.svg';
-//import strength from '../utils/images/eesha-img/strength.jpg';
-//import devil from '../utils/images/eesha-img/devil.jpg';
 import eightwands from '../utils/images/eesha-img/8wands.jpg';
 import chariot from '../utils/images/eesha-img/chariot.jpg';
 import fourswords from '../utils/images/eesha-img/4swords.jpg';
@@ -23,6 +21,8 @@ import fiveswords from '../utils/images/eesha-img/5swords.jpg';
 import deviloverstrength from '../utils/images/eesha-img/devil over strength.png';
 import lovers from '../utils/images/eesha-img/lovers.jpg';
 import tower from '../utils/images/eesha-img/tower.jpg';
+import EeshaCard from '../components/EeshaCard';
+import clouds from '../utils/images/eesha-img/clouds.gif';
 
 function Eesha() {
   return (
@@ -39,16 +39,16 @@ function Eesha() {
       
       <div className="links-container">
         <div className="link">
-          <a href="#natal-chart" className="eesha-text-purple">my star chart</a>
+          <a href="#natal-chart" className="eesha-text-purple"><font size="6">my star chart</font></a>
         </div>
         <div className="link">
-          <a href="#my-mbti" className="eesha-text-purple">my mbti</a>
+          <a href="#my-mbti" className="eesha-text-purple"><font size="6">my mbti</font></a>
         </div>
         <div className="link">
-          <a href="#hogwarts" className="eesha-text-purple">harry potter</a>
+          <a href="#hogwarts" className="eesha-text-purple"><font size="6">harry potter</font></a>
         </div>
         <div className="link">
-          <a href="#who" className="eesha-text-purple">who are you?</a>
+          <a href="#who" className="eesha-text-purple"><font size="6">who are you?</font></a>
         </div>
       </div>
       
@@ -59,73 +59,79 @@ function Eesha() {
         <div className="callout-container">
           <p className="eesha-text-unpadded">i was born at 11.08 pm, december 15, 2002, which means: </p>
         </div>
-      </div>
+      </div> 
 
       <div className="flex-grid-container">
-        <div className="grid-one">
-          <img src={sun} alt="sun-sign" />
-          <p className="eesha-sign-chart-h1">sun || sagittarius || 24°1'37"</p>
-          <p className="eesha-sign-chart-h2">i have strong ideas about meaning and what's right or wrong.</p>
-          <p className="eesha-sign-chart-h2">i live to be free, and to learn.</p>
-        </div>
+        <EeshaCard
+          image={sun}
+          header={"sun || sagittarius || 24°1'37\""}
+          desc1={"i have strong ideas about meaning and what's right or wrong."}
+          desc2={"i live to be free, and to learn."}
+        />
 
-        <div className="grid-two">
-          <img src={asc} alt="asc-sign" />
-          <p className="eesha-sign-chart-h1">ascendent || virgo || 11°45'54"</p>
-          <p className="eesha-sign-chart-h2">i am precise, diligent, peace-seeking, and organized.</p>
-          <p className="eesha-sign-chart-h2">i may seem a bit too attached to work, details, and the pursuit of perfection.</p>
-        </div>
+        <EeshaCard
+          image={asc}
+          header={"ascendent || virgo || 11°45'54\""}
+          desc1={"i am precise, diligent, peace-seeking, and organized."}
+          desc2={"i may seem a bit too attached to work, details, and the pursuit of perfection."}
+        />
 
-        <div className="grid-three">
-          <img src={moon} alt="moon-sign" />
-          <p className="eesha-sign-chart-h1">moon || taurus || 13°6'26"</p>
-          <p className="eesha-sign-chart-h2">i am deeply loyal to the people i care about.</p>
-          <p className="eesha-sign-chart-h2">i often feel powerless to fix messy situations.</p>
-        </div>
+        <EeshaCard
+          image={moon}
+          header={"moon || taurus || 13°6'26\""}
+          desc1={"i am deeply loyal to the people i care about."}
+          desc2={"i often feel powerless to fix messy situations."}
+        />
 
-        <div className="grid-four">
-          <img src={mer} alt="mer-sign" />
-          <p className="eesha-sign-chart-h1">mercury || capricorn || 10°59'53"</p>
-          <p className="eesha-sign-chart-h2">i tend to be a poor communicator (oops).</p>
-          <p className="eesha-sign-chart-h2">i am curious about and inclined to analyze my love life, happiness, and creative projects.</p>
-        </div>
+        <EeshaCard
+          image={mer}
+          header={"mercury || capricorn || 10°59'53\""}
+          desc1={"i tend to be a poor communicator (oops)."}
+          desc2={"i am curious about and inclined to analyze my love life, happiness, and creative projects."}
+        />
 
-        <div className="grid-five">
-          <img src={ven} alt="ven-sign" />
-          <p className="eesha-sign-chart-h1">venus || scorpio || 10°20'31"</p>
-          <p className="eesha-sign-chart-h2">my romantic side is mysterious, passionate, and seductive..</p>
-          <p className="eesha-sign-chart-h2">aaaand that's enough of that.</p>
-        </div>
+        <EeshaCard
+          image={ven}
+          header={"venus || scorpio || 10°20'31\""}
+          desc1={"my romantic side is mysterious, passionate, and seductive.."}
+          desc2={"aaaand that's enough of that."}
+        />
 
-        <div className="grid-six">
-          <img src={mar} alt="mar-sign" />
-          <p className="eesha-sign-chart-h1">mars || scorpio || 9°22'46"</p>
-          <p className="eesha-sign-chart-h2">i assert myself in a way that is serious and incisive.</p>
-          <p className="eesha-sign-chart-h2">once i decide i want to do something, i don't hold back.</p>
-        </div>
+        <EeshaCard
+          image={mar}
+          header={"mars || scorpio || 9°22'46\""}
+          desc1={"i assert myself in a way that is serious and incisive."}
+          desc2={"once i decide i want to do something, i don't hold back."}
+        />
 
-        <div className="grid-seven">
-          <img src={jup} alt="jup-sign" />
-          <p className="eesha-sign-chart-h1">jupiter || leo || 17°52'53"</p>
-          <p className="eesha-sign-chart-h2">i grow and find understanding through magnanimity, inspiring confidence, thinking big, and feeling good about myself.</p>
-        </div>
+        <EeshaCard
+          image={jup}
+          header={"jupiter || leo || 17°52'53\""}
+          desc1={"i grow and find understanding through magnanimity, "}
+          desc2={"inspiring confidence, thinking big, and feeling good about myself."}
+        />
 
-        <div className="grid-eight">
-          <img src={sat} alt="sat-sign" />
-          <p className="eesha-sign-chart-h1">saturn || gemini || 25°43'34"</p>
-          <p className="eesha-sign-chart-h2">i struggle with a lack of focus, restless energy, and getting bored easily.</p>
-          <p className="eesha-sign-chart-h2">no i don't.</p>
-        </div>
+        <EeshaCard
+          image={sat}
+          header={"saturn || gemini || 25°43'34\""}
+          desc1={"i struggle with a lack of focus, restless energy, and getting bored easily."}
+          desc2={"no i don't."}
+        />
 
-        <div className="grid-nine">
-          <img src={ur} alt="ur-sign" />
-          <p className="eesha-sign-chart-h1">uranus || aquarius || 25°38'59"</p>
-          <p className="eesha-sign-chart-h2">other generations are shocked by our generation's unconventionality, intellectuality, and detachedness.</p>
-          <p className="eesha-sign-chart-h2">is this true, h4i?</p>
-        </div>
+        <EeshaCard
+          image={ur}
+          header={"uranus || aquarius || 25°38'59\""}
+          desc1={"other generations are shocked by our generation's unconventionality, intellectuality, and detachedness."}
+          desc2={"is this true, h4i?"}
+        />
+
       </div>
 
-      <hr></hr>
+      <img 
+      src={clouds}
+      alt="clouds passing"
+      className="divider"
+      />
 
       <div className="callout">
         <div className="callout-header">my celtic spread</div>
@@ -318,16 +324,15 @@ function Eesha() {
             <p className="eesha-text-unpadded">sites and resources</p>
           </div>
         </div>
-        {/* <p> */}
-          <b className="eesha-text-purple">see more</b>
-          
-        {/* </p> */}
-      </div>
 
-      <div>
+          <b className="eesha-text-purple">see more</b>
+          <br/>
           <a href="https://www.costarastrology.com/natal-chart/" className="eesha-text-purple"> Co-Star: Hyper-Personalized, Real-Time Horoscopes</a>
+          <br/>
           <a href="https://www.biddytarot.com/how-to-read-the-celtic-cross-tarot-spread/" className="eesha-text-purple">How to Read the Celtic Cross Tarot Spread</a>
+          <br/>
           <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
+          <br/>
           <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
       </div>
 
