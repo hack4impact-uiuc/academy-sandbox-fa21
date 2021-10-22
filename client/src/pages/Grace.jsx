@@ -3,6 +3,7 @@ import React from 'react';
 
 import '../css/Grace.css';
 import GraceVideo from '../pages/GraceVideo.jsx';
+import GraceLink from '../pages/GraceLink.jsx';
 
 function Grace() {
   return (
@@ -16,54 +17,11 @@ function Grace() {
         <div className="header"> Grace Zhang </div>
         <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
         <div className="links">
-          <p>
-            {' '}
-            <a href="mailto: gracewz2@illinois.edu" className="link">
-              Email: gracewz2@illinois.edu
-            </a>{' '}
-          </p>
-          <p>
-            {' '}
-            <a href="tel:408-658-5025" className="link">
-              Phone: 408-658-6025
-            </a>{' '}
-          </p>
-          <p>
-            {' '}
-            <a
-              href="https://www.linkedin.com/in/grace-w-zhang/"
-              className="link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {' '}
-              LinkedIn{' '}
-            </a>{' '}
-          </p>
-          <p>
-            {' '}
-            <a
-              href="https://www.facebook.com/drowsynights/"
-              className="link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {' '}
-              Facebook{' '}
-            </a>{' '}
-          </p>
-          <p>
-            {' '}
-            <a
-              href="https://www.instagram.com/dreamsinparadise/"
-              className="link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {' '}
-              Instagram{' '}
-            </a>{' '}
-          </p>
+          <GraceLink link={"mailto: gracewz2@illinois.edu"} description={"Email:gracewz2@illinois.edu"} />
+          <GraceLink link={"tel:408-658-5025"} description={"Phone: 408-658-6025"} />
+          <GraceLink link={"https://www.linkedin.com/in/grace-w-zhang/"} description={"LinkedIn"} />
+          <GraceLink link={"https://www.facebook.com/drowsynights/"} description={"Facebook"} />
+          <GraceLink link={"https://www.instagram.com/dreamsinparadise/"} description={"Instagram"}/>
         </div>
       </div>
       <div className="divider"></div>
