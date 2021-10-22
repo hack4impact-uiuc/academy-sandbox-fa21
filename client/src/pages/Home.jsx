@@ -62,13 +62,13 @@ function Home() {
 
   return (
     <>
-      <h1>Academy Sandbox</h1>
-      <p>a place to practice what you learn</p>
+      <h1 className="home-title">Academy Sandbox</h1>
+      <p className="home-subtitle">a place to practice what you learn</p>
 
-      <Table style={{ margin: 'auto' }}>
+      <Table className="home-table">
         <tbody>
           {people.map((row, index) => (
-            <tr key={index}>
+            <tr className="home-table-row" key={index}>
               {row.map((person) => (
                 <td key={person.name} style={{ textAlign: 'center' }}>
                   <img
@@ -79,9 +79,7 @@ function Home() {
                     height="120"
                   />
                   <br />
-                  <a id="profile-name" href={person.link}>
-                    {person.name}
-                  </a>
+                  <a href={person.link}>{person.name}</a>
                 </td>
               ))}
             </tr>
