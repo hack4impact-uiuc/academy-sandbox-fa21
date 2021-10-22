@@ -6,6 +6,13 @@ import GraceVideo from '../pages/GraceVideo.jsx';
 import GraceLink from '../pages/GraceLink.jsx';
 
 function Grace() {
+
+  const links = [{"link":"mailto: gracewz2@illinois.edu", "description":"Email:gracewz2@illinois.edu"},
+                {"link":"tel:408-658-5025", "description":"Phone: 408-658-6025"},
+                {"link":"https://www.linkedin.com/in/grace-w-zhang/", "description":"LinkedIn"},
+                {"link":"https://www.facebook.com/drowsynights/", "description":"Facebook"},
+                {"link":"https://www.instagram.com/dreamsinparadise/", "description":"Instagram"},
+];
   return (
     <>
       <div className="banner">
@@ -17,14 +24,13 @@ function Grace() {
         <div className="header"> Grace Zhang </div>
         <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
         <div className="links">
-          <GraceLink link={"mailto: gracewz2@illinois.edu"} description={"Email:gracewz2@illinois.edu"} />
-          <GraceLink link={"tel:408-658-5025"} description={"Phone: 408-658-6025"} />
-          <GraceLink link={"https://www.linkedin.com/in/grace-w-zhang/"} description={"LinkedIn"} />
-          <GraceLink link={"https://www.facebook.com/drowsynights/"} description={"Facebook"} />
-          <GraceLink link={"https://www.instagram.com/dreamsinparadise/"} description={"Instagram"}/>
+          {
+            links.map((link, i) => <GraceLink key={i} link={link.link} description={link.description} />)
+          }
+         
         </div>
       </div>
-      <div className="divider"></div>
+      <div className="divider"/>
       <div className="facts">
         <div className="left">
           <h2> Random Facts </h2>
@@ -82,8 +88,7 @@ function Grace() {
           </ul>
         </div>
       </div>
-      <div></div>
-      <div className="divider"></div>
+      <div className="divider"/>
       <div className="videos">
         <GraceVideo url={'https://www.youtube.com/embed/ThE2Ap9RPz8'} />
         <GraceVideo url={'https://www.youtube.com/embed/gLDSU36nNls'} />
