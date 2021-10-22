@@ -1,9 +1,10 @@
 import React from 'react';
+import '../css/Grace.css';
 
 function GraceVideo(props) {
   const { url } = props;
   return (
-    <div>
+    <>
       <iframe
         width="395"
         height="250"
@@ -13,7 +14,7 @@ function GraceVideo(props) {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       />
-    </div>
+    </>
   );
 }
 

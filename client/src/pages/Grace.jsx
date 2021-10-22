@@ -38,7 +38,7 @@ function Grace() {
               I wake up at 6:30 every morning (by choice, even during the
               weekend~){' '}
             </li>
-            <li> 120+ games installed on my phone at the moment T_T </li>
+            <li> 120+ games installed on my phone at the moment </li>
             <li> FAR's dining hall (rip) &gt; PAR &gt;&gt;&gt; ISR </li>
           </ul>
         </div>

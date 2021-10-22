@@ -64,6 +64,7 @@
   justify-content: space-between;
   flex-shrink: 1;
   flex-grow: 1;
+  width: 100%;
 }
 
 .left {
@@ -105,3 +106,4 @@
   text-align: center;
   color: #fdf1e8;
 }
+
