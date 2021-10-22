@@ -3,6 +3,10 @@
 
 .animated {
   animation: shapeIn 1s;
+  background-color: #d4c8be;
+}
+body {
+  margin: 0;
 }
 @keyframes shapeIn {
   from {
@@ -13,9 +17,6 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-body {
-  background-color: #d4c8be;
 }
 .main-header {
   text-align: center;
