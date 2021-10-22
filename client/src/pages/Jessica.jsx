@@ -8,8 +8,9 @@ import mic from '../utils/images/mic.PNG';
 import badminton from '../utils/images/badminton.PNG';
 // import dancing from '../utils/images/dancing.png';
 // import yellowstone from '../utils/images/yellowston.png';
-// import banff from '../utils/images/banff.png';
+import banff from '../utils/images/banff.png';
 import elephant from '../utils/images/elephant.png';
+import JessicaSection from './JessicaSection';
 
 function Jessica() {
   return (
@@ -22,7 +23,8 @@ function Jessica() {
       <div className="introduction">
         <h2>H4i Academy Member and Freshman in CS</h2>
       </div>
-      <div className="gallery">
+      <JessicaSection title="Misc" imgs = {[sushi, badminton, mic, banff, elephant]}/>
+      {/* <div className="gallery">
         <figure className="gallery__item sushi-item">
           <img src={sushi} alt="Sushi" height="400"></img>
         </figure>
@@ -48,7 +50,7 @@ function Jessica() {
         <figure className="gallery__item elephant-item">
           <img src={elephant} alt="Elephant" height="400"></img>
         </figure>
-      </div>
+      </div> */}
     </div>
   );
 }
