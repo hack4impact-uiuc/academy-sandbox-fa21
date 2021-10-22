@@ -332,8 +332,6 @@ function Eesha() {
           <a href="https://www.biddytarot.com/how-to-read-the-celtic-cross-tarot-spread/" className="eesha-text-purple">How to Read the Celtic Cross Tarot Spread</a>
           <br/>
           <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
-          <br/>
-          <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
       </div>
 
     </>
