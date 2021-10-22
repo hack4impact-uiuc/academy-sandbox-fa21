@@ -38,54 +38,91 @@ import pic16 from '../utils/anthony-utils/pic16.jpg';
 import ImagesGrid from '../utils/anthony-utils/anthony-component';
 
 function Anthony() {
-  const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16];  
-  const memes = [meme1, meme2, meme3, meme4, meme5, meme6, meme7, meme8, meme9, meme10, meme11, meme12, meme13, meme14, meme15, meme16];
+  const images = [
+    pic1,
+    pic2,
+    pic3,
+    pic4,
+    pic5,
+    pic6,
+    pic7,
+    pic8,
+    pic9,
+    pic10,
+    pic11,
+    pic12,
+    pic13,
+    pic14,
+    pic15,
+    pic16,
+  ];
+  const memes = [
+    meme1,
+    meme2,
+    meme3,
+    meme4,
+    meme5,
+    meme6,
+    meme7,
+    meme8,
+    meme9,
+    meme10,
+    meme11,
+    meme12,
+    meme13,
+    meme14,
+    meme15,
+    meme16,
+  ];
 
   return (
     <div>
-    <div className="anthony-header">
-          <div>
-            <img
-              className="anthony-headshot"
-              src={anthony}
-              alt="anthony headshot"
-              width="175"
-              height="175"
-            />
+      <div className="anthony-header">
+        <div>
+          <img
+            className="anthony-headshot"
+            src={anthony}
+            alt="anthony headshot"
+            width="175"
+            height="175"
+          />
+        </div>
+        <div className="anthony-header-content">
+          <div className="name-in-header">
+            <h1 className="name-in-header">Anthony Cruz Macedo</h1>
           </div>
-          <div className="anthony-header-content">
-            <div className="name-in-header">
-              <h1 className="name-in-header">Anthony Cruz Macedo</h1>
-            </div>
-            <div>
-              <p>
-                <a
-                  className="anthony-link"
-                  href="https://www.facebook.com/profile.php?id=100072821919133"
-                >
-                  Facebook
-                </a>{' '}
-                <a className="anthony-link" href="https://www.instagram.com/saxytony/">
-                  {' '}
-                  Instagram
-                </a>{' '}
-                <a
-                  className="anthony-link"
-                  href="https://www.linkedin.com/in/acruzmacedo/"
-                >
-                  {' '}
-                  LinkedIn
-                </a>{' '}
-                <a
-                  className="anthony-link"
-                  href="https://open.spotify.com/user/3p6e4kte4mf77mujwzlgs6trw?si=b137c414428a4f00"
-                >
-                  Spotify
-                </a>
-              </p>
-            </div>
+          <div>
+            <p>
+              <a
+                className="anthony-link"
+                href="https://www.facebook.com/profile.php?id=100072821919133"
+              >
+                Facebook
+              </a>{' '}
+              <a
+                className="anthony-link"
+                href="https://www.instagram.com/saxytony/"
+              >
+                {' '}
+                Instagram
+              </a>{' '}
+              <a
+                className="anthony-link"
+                href="https://www.linkedin.com/in/acruzmacedo/"
+              >
+                {' '}
+                LinkedIn
+              </a>{' '}
+              <a
+                className="anthony-link"
+                href="https://open.spotify.com/user/3p6e4kte4mf77mujwzlgs6trw?si=b137c414428a4f00"
+              >
+                Spotify
+              </a>
+            </p>
           </div>
         </div>
+      </div>
       <div className="under-header">
         <div>
           <h2 className="anthony-h2">About Me</h2>
@@ -100,13 +137,13 @@ function Anthony() {
         <div className="pictures">
           <h2 className="anthony-h2">Pictures</h2>
           <div className="pictures-content">
-            <ImagesGrid arr = {images} />
+            <ImagesGrid arr={images} />
           </div>
         </div>
         <div className="pictures">
           <h2 className="anthony-h2">Memes</h2>
           <div className="pictures-content">
-          <ImagesGrid arr = {memes} />
+            <ImagesGrid arr={memes} />
           </div>
         </div>
         <div>
