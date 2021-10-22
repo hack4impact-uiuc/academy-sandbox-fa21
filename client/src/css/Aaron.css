@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.animated {
+  animation: shapeIn 1s;
+  background-color: #d4c8be;
+}
+body {
+  margin: 0;
+}
+@keyframes shapeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.main-header {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.name {
+  font-size: 4em;
+  margin-top: 0.4em;
+  font-weight: 900;
+}
+.subtext {
+  margin-top: -1.5em;
+  font-weight: 200;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-top: -0.4em;
+}
+.navbar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+.cool-link {
+  transition: all 0.3s ease;
+}
+.cool-link:link {
+  color: inherit;
+  text-decoration: none;
+}
+.cool-link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.cool-link:active {
+  color: inherit;
+  text-decoration: none;
+}
+.cool-link:hover {
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 5px grey;
+  color: inherit;
+  text-decoration: none;
+}
+.header-image {
+  width: 30%;
+  border-radius: 100%;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 2em;
+}
+.button {
+  font-size: 140%;
+}
+.cool-intro {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  padding: 1.1em;
+}
+.cool-hr {
+  border: 1px solid black;
+  overflow: hidden;
+  width: 50%;
+  margin-top: 0.3em;
+}
