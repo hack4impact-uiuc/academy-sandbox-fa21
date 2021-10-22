@@ -36,8 +36,25 @@ function Eesha() {
       </div>
       
       <img src={appa} alt="appa flying" className="icon"></img>
+      
+      <div className="links-container">
+        <div className="link">
+          <a href="#natal-chart" className="eesha-text-purple">my star chart</a>
+        </div>
+        <div className="link">
+          <a href="#my-mbti" className="eesha-text-purple">my mbti</a>
+        </div>
+        <div className="link">
+          <a href="#hogwarts" className="eesha-text-purple">harry potter</a>
+        </div>
+        <div className="link">
+          <a href="#who" className="eesha-text-purple">who are you?</a>
+        </div>
+      </div>
+      
+      
 
-      <div className="callout">
+      <div id="natal-chart" className="callout"> 
         <div className="callout-header">my star chart</div>
         <div className="callout-container">
           <p className="eesha-text-unpadded">i was born at 11.08 pm, december 15, 2002, which means: </p>
@@ -107,6 +124,8 @@ function Eesha() {
           <p className="eesha-sign-chart-h2">is this true, h4i?</p>
         </div>
       </div>
+
+      <hr></hr>
 
       <div className="callout">
         <div className="callout-header">my celtic spread</div>
@@ -271,36 +290,45 @@ function Eesha() {
         </div>
 
       </div>
+      
+      <hr></hr>
 
-      <div className="callout">
+      <div id="my-mbti" className="callout">
         <div className="callout-header">my MBTI</div>
         <div className="callout-container">
           <p className="eesha-text-unpadded">i am a protagonist (ENFJ) ! which means: </p>
         </div>
       </div>
 
-      <div className="callout">
+      <hr></hr>
+
+      <div id="hogwarts" className="callout">
         <div className="callout-header">my hogwarts house</div>
         <div className="callout-container">
           <p className="eesha-text-unpadded">i am a: ravenclaw with a beagle patronus and a ___ wand: </p>
         </div>
       </div>
 
-      <div className="callout">
-        <div className="callout-header">who are <b> <i> you</i></b>?</div>
-        <div className="callout-container">
-          <p className="eesha-text-unpadded">sites and resources</p>
+      <hr></hr>
+
+      <div className="callout-final"> 
+        <div id="who" className="callout">
+          <div className="callout-header">who are <b> <i> you</i></b>?</div>
+          <div className="callout-container">
+            <p className="eesha-text-unpadded">sites and resources</p>
+          </div>
         </div>
+        {/* <p> */}
+          <b className="eesha-text-purple">see more</b>
+          
+        {/* </p> */}
       </div>
 
-      <div> 
-        <p>
-          <b className="eesha-text-purple">see more</b>
+      <div>
           <a href="https://www.costarastrology.com/natal-chart/" className="eesha-text-purple"> Co-Star: Hyper-Personalized, Real-Time Horoscopes</a>
           <a href="https://www.biddytarot.com/how-to-read-the-celtic-cross-tarot-spread/" className="eesha-text-purple">How to Read the Celtic Cross Tarot Spread</a>
           <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
           <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list" className="eesha-text-purple">Tarot Cards Meanings List</a>
-        </p>
       </div>
 
     </>

@@ -29,8 +29,7 @@
 .eesha-text-purple {
   font-family: 'PT Sans', cursive;
   color: #d0b6c9  ;
-  margin-left: 30%;
-  margin-top: -6%;
+  margin-top: 5px;
 }
 
 .eesha-text-unpadded {
@@ -65,6 +64,10 @@
   max-width: 300px;
 }
 
+.callout-final {
+  display: flex;
+}
+
 /* Callout header */
 .callout-header {
   font-family: 'PT Sans Caption', cursive;
@@ -87,6 +90,15 @@
   margin-top: -5%;
   margin-left: 30%;
   row-gap: 5px;
+}
+
+.links-container {
+  display: flex; /* or inline-flex */
+  justify-content: space-evenly;
+}
+
+.link {
+  width: 150px;
 }
 
 .flex-grid-container-cards {
@@ -317,4 +329,8 @@
   padding: 5px;
   background-color: white;
   opacity: 70%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
