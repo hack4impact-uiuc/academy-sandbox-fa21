@@ -14,10 +14,10 @@ import badminton from '../utils/images/badminton.PNG';
 function Jessica() {
   return (
     <div className="main">
-      <div className="header">
+      <div className="jessica-header">
         {/* <img src={background} alt="Mount Rainier" width="100%" height="400"></img> */}
         <div className="fullname">
-          <h1>Jessica Singh</h1>
+          Jessica Singh
         </div>
       </div>
       
@@ -35,10 +35,10 @@ function Jessica() {
           <img src={mic} alt="Mic" height="400"></img>
         </figure>
         <figure className="gallery__item border-item">
-          <p>
-            <b> Hi! Some things about me: </b>{' '}
-          </p>
           <div className="hobbies">
+            <p>
+              <b> Hi! Some things about me: </b>{' '}
+            </p>
             <ul>
               <li>
                 {' '}
