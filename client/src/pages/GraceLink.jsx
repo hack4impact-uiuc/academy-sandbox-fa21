@@ -6,7 +6,7 @@ function GraceLink(props) {
   return (
     <p>
       {' '}
-      <a href={link} className="link">
+      <a href={link} className="link" target="_blank" rel="noreferrer">
         {description}
       </a>
     </p>
