@@ -1,14 +1,14 @@
 import React from 'react';
 
-function ImagesGrid(props) {
-  const { arr } = props;
+function AnthonyGrid(props) {
+  const { ImagesArray } = props;
   return (
     <>
-      {arr.map((img, i) => (
+      {ImagesArray.map((img, i) => (
         <img className="anthony-images" src={img} alt={i} key={i} />
       ))}
     </>
   );
 }
 
-export default ImagesGrid;
+export default AnthonyGrid;

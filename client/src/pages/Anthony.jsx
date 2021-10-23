@@ -35,7 +35,7 @@ import pic13 from '../utils/anthony-utils/pic13.jpg';
 import pic14 from '../utils/anthony-utils/pic14.jpg';
 import pic15 from '../utils/anthony-utils/pic15.jpg';
 import pic16 from '../utils/anthony-utils/pic16.jpg';
-import ImagesGrid from '../utils/anthony-utils/anthony-component';
+import AnthonyGrid from '../utils/anthony-utils/AnthonyGrid';
 
 function Anthony() {
   const images = [
@@ -137,13 +137,13 @@ function Anthony() {
         <div className="pictures">
           <h2 className="anthony-h2">Pictures</h2>
           <div className="pictures-content">
-            <ImagesGrid arr={images} />
+            <AnthonyGrid ImagesArray={images} />
           </div>
         </div>
         <div className="pictures">
           <h2 className="anthony-h2">Memes</h2>
           <div className="pictures-content">
-            <ImagesGrid arr={memes} />
+            <AnthonyGrid ImagesArray={memes} />
           </div>
         </div>
         <div>
