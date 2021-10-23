@@ -2,7 +2,17 @@ import React from 'react';
 
 import '../css/Ellie.css';
 
-function EllieSidebar({homeImg, firstName, lastName, react1, react2, react3, city, instalink, cvlink}) {
+function EllieSidebar({
+  homeImg,
+  firstName,
+  lastName,
+  react1,
+  react2,
+  react3,
+  city,
+  instalink,
+  cvlink,
+}) {
   return (
     <div className="welcome">
       <div className="picture">
@@ -10,7 +20,7 @@ function EllieSidebar({homeImg, firstName, lastName, react1, react2, react3, cit
 
         <div className="sidebar-text">
           <h1>
-            {firstName} <br /> {lastName }
+            {firstName} <br /> {lastName}
           </h1>
 
           <div className="sidebar-mediatext">
