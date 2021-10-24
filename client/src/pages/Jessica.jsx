@@ -15,6 +15,7 @@ import banff from '../utils/images/jessica-pics/banff.png';
 import elephant from '../utils/images/jessica-pics/elephant.png';
 import gyro from '../utils/images/jessica-pics/gyro.jpeg';
 import tandoori from '../utils/images/jessica-pics/tandoori.jpg';
+
 import JessicaSection from './JessicaSection';
 
 function Jessica() {
@@ -35,8 +36,14 @@ function Jessica() {
       <div className="introduction">
         <h2>H4i Academy Member and Freshman in CS</h2>
       </div>
-      <JessicaSection title="nature-esque" imgs={[banff, reindeer, yellowstone]} />
-      <JessicaSection title="favorite cuisines" imgs={[pasta, gyro, sushi, tandoori]} />
+      <JessicaSection
+        title="nature-esque"
+        imgs={[banff, reindeer, yellowstone]}
+      />
+      <JessicaSection
+        title="favorite cuisines"
+        imgs={[pasta, gyro, sushi, tandoori]}
+      />
       <JessicaSection title="hobbies" imgs={[dancing, sketching, elephant]} />
       <JessicaSection title="sports" imgs={[badminton, fencing, taekwondo]} />
     </div>
