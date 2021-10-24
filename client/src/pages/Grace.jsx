@@ -3,56 +3,57 @@ import React from 'react';
 
 import '../css/Grace.css';
 import GraceVideo from '../pages/GraceVideo.jsx';
-import GraceLink from '../pages/GraceLink.jsx';
+
+import GraceProfileLink from './GraceProfileLink.jsx';
 
 function Grace() {
-  const links = [
+  const profile_links = [
     {
-      link: 'mailto: gracewz2@illinois.edu',
+      url: 'mailto: gracewz2@illinois.edu',
       description: 'Email:gracewz2@illinois.edu',
     },
-    { link: 'tel:408-658-5025', description: 'Phone: 408-658-6025' },
+    { url: 'tel:408-658-5025', description: 'Phone: 408-658-6025' },
     {
-      link: 'https://www.linkedin.com/in/grace-w-zhang/',
+      url: 'https://www.linkedin.com/in/grace-w-zhang/',
       description: 'LinkedIn',
     },
-    { link: 'https://www.facebook.com/drowsynights/', description: 'Facebook' },
+    { url: 'https://www.facebook.com/drowsynights/', description: 'Facebook' },
     {
-      link: 'https://www.instagram.com/dreamsinparadise/',
+      url: 'https://www.instagram.com/dreamsinparadise/',
       description: 'Instagram',
     },
   ];
 
-  const vids = [
-    { url: 'https://www.youtube.com/embed/ThE2Ap9RPz8' },
-    { url: 'https://www.youtube.com/embed/gLDSU36nNls' },
-    { url: 'https://www.youtube.com/embed/ZWT9K5rRmv0' },
-    { url: 'https://www.youtube.com/embed/8bR1glLPtaY?start=18' },
+  const videos = [
+    'https://www.youtube.com/embed/ThE2Ap9RPz8',
+    'https://www.youtube.com/embed/gLDSU36nNls',
+    'https://www.youtube.com/embed/ZWT9K5rRmv0',
+    'https://www.youtube.com/embed/8bR1glLPtaY?start=18',
   ];
 
   return (
     <>
-      <div className="banner">
+      <div className="gz-banner">
         <img
           src="https://images8.alphacoders.com/685/685929.png"
           alt="Mushishi Wallpaper"
-          id="mushishi_wallpaper"
+          id="gz-wallpaper"
         />
-        <div className="header"> Grace Zhang </div>
-        <div className="intro"> Hello! I'm Grace, a freshman in CS. </div>
-        <div className="links">
-          {links.map((link, i) => (
-            <GraceLink
+        <div className="gz-title"> Grace Zhang </div>
+        <div className="gz-intro"> Hello! I'm Grace, a freshman in CS. </div>
+        <div className="gz-profile-links">
+          {profile_links.map((link, i) => (
+            <GraceProfileLink
               key={i}
-              link={link.link}
+              url={link.url}
               description={link.description}
             />
           ))}
         </div>
       </div>
-      <div className="divider" />
-      <div className="facts">
-        <div className="left">
+      <div className="gz-divider" />
+      <div className="gz-facts">
+        <div className="gz-facts-left">
           <h2> Random Facts </h2>
           <ul>
             <li>
@@ -68,7 +69,7 @@ function Grace() {
             <li> FAR's dining hall (rip) &gt; PAR &gt;&gt;&gt; ISR </li>
           </ul>
         </div>
-        <div className="right">
+        <div className="gz-facts-right">
           <h2> Pursuits </h2>
           <ul>
             <li> Badminton! I'm still a beginner though </li>
@@ -77,7 +78,7 @@ function Grace() {
               Learning{' '}
               <a
                 href="https://www.youtube.com/watch?v=lg4i5xCMJpI"
-                className="link"
+                className="gz-link"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -87,7 +88,7 @@ function Grace() {
               on the piano (my favorite is{' '}
               <a
                 href="https://youtu.be/lg4i5xCMJpI?t=152"
-                className="link"
+                className="gz-link"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -108,10 +109,10 @@ function Grace() {
           </ul>
         </div>
       </div>
-      <div className="divider" />
-      <div className="videos">
-        {vids.map((link, i) => (
-          <GraceVideo key={i} url={link.url} />
+      <div className="gz-divider" />
+      <div className="gz-videos">
+        {videos.map((link, i) => (
+          <GraceVideo key={i} url={link} />
         ))}
       </div>
     </>

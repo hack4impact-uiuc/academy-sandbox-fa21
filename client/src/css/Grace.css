@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
-.banner {
+.gz-banner {
   width: 100%;
   height: 400px;
   margin-bottom: 20px;
 }
 
-.header {
+.gz-title {
   text-align: center;
   color: #fdf1e8;
   font-family: 'WindSong', cursive;
@@ -18,14 +18,7 @@
   width: 100%;
 }
 
-.link {
-  color: #fdf1e8;
-}
-.link:hover {
-  color: #c5b9bd;
-}
-
-.intro {
+.gz-intro {
   text-align: center;
   color: #fdf1e8;
   font-family: 'Nanum Myeongjo', serif;
@@ -36,56 +29,7 @@
   width: 100%;
 }
 
-#mushishi_wallpaper {
-  width: 100%;
-  height: 400px;
-  object-fit: none;
-}
-
-.divider {
-  height: 20px;
-  background-color: #fdf1e8;
-  margin-bottom: 20px;
-}
-
-.facts {
-  background-color: #10435c;
-  font-family: 'Nanum Myeongjo', serif;
-  padding-top: 20px;
-  line-height: 23px;
-  color: #fdf1e8;
-  padding-bottom: 250px;
-  margin-bottom: 20px;
-}
-
-.videos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-shrink: 1;
-  flex-grow: 1;
-  width: 100%;
-}
-
-.left {
-  padding-left: 10%;
-  background-color: #10435c;
-  width: 40%;
-  float: left;
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-.right {
-  padding-right: 10%;
-  background: #10435c;
-  width: 40%;
-  float: right;
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-.links {
+.gz-profile-links {
   color: #fdf1e8;
   display: flex;
   flex-direction: row;
@@ -97,12 +41,62 @@
   padding-right: 60px;
 }
 
-.links p {
+.gz-profile-links p {
   font-family: 'Nanum Myeongjo', serif;
 }
 
-.subheading {
-  background-color: #fdf1e8;
-  text-align: center;
+.gz-link {
   color: #fdf1e8;
+}
+.gz-link:hover {
+  color: #c5b9bd;
+}
+
+#gz-wallpaper {
+  width: 100%;
+  height: 400px;
+  object-fit: none;
+}
+
+.gz-divider {
+  height: 20px;
+  background-color: #fdf1e8;
+  margin-bottom: 20px;
+}
+
+.gz-facts {
+  background-color: #10435c;
+  font-family: 'Nanum Myeongjo', serif;
+  padding-top: 20px;
+  line-height: 23px;
+  color: #fdf1e8;
+  padding-bottom: 250px;
+  margin-bottom: 20px;
+}
+
+.gz-facts-left {
+  padding-left: 10%;
+  background-color: #10435c;
+  width: 40%;
+  float: left;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.gz-facts-right {
+  padding-right: 10%;
+  background: #10435c;
+  width: 40%;
+  float: right;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.gz-videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 1;
+  flex-grow: 1;
+  width: 100%;
 }
