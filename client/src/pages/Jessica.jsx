@@ -2,55 +2,43 @@
 import React from 'react';
 
 import '../css/Jessica.css';
-// import background from '../utils/images/bg.jpg';
-import sushi from '../utils/images/sushi.jpg';
-import mic from '../utils/images/mic.PNG';
-import badminton from '../utils/images/badminton.PNG';
-// import dancing from '../utils/images/dancing.png';
-// import yellowstone from '../utils/images/yellowston.png';
-import banff from '../utils/images/banff.png';
-import elephant from '../utils/images/elephant.png';
+import sushi from '../utils/images/jessica-pics/sushi.jpg';
+import reindeer from '../utils/images/jessica-pics/reindeer.jpg';
+import taekwondo from '../utils/images/jessica-pics/taekwondo.jpg';
+import pasta from '../utils/images/jessica-pics/pasta.jpg';
+import badminton from '../utils/images/jessica-pics/badminton.PNG';
+import dancing from '../utils/images/jessica-pics/dancing.jpg';
+import sketching from '../utils/images/jessica-pics/sketching.jpg';
+import fencing from '../utils/images/jessica-pics/fencing.jpg';
+import yellowstone from '../utils/images/jessica-pics/yellowstone.png';
+import banff from '../utils/images/jessica-pics/banff.png';
+import elephant from '../utils/images/jessica-pics/elephant.png';
+import gyro from '../utils/images/jessica-pics/gyro.jpeg';
+import tandoori from '../utils/images/jessica-pics/tandoori.jpg';
 import JessicaSection from './JessicaSection';
 
 function Jessica() {
   return (
     <div className="main">
       <div className="jessica-header">
-        {/* <img src={background} alt="Mount Rainier" width="100%" height="400"></img> */}
-        <div className="fullname">Jessica Singh</div>
+        <div className="fullname">Jessica Singh</div>\
+        <a
+          href="https://www.linkedin.com/in/jessica-singh-5a2188216/"
+          className="links"
+        >
+          LinkedIn
+        </a>
+        <a href="https://www.instagram.com/jessicasingh_7/" className="links">
+          Instagram
+        </a>
       </div>
-
       <div className="introduction">
         <h2>H4i Academy Member and Freshman in CS</h2>
       </div>
-      <JessicaSection title="Misc" imgs = {[sushi, badminton, mic, banff, elephant]}/>
-      {/* <div className="gallery">
-        <figure className="gallery__item sushi-item">
-          <img src={sushi} alt="Sushi" height="400"></img>
-        </figure>
-        <figure className="gallery__item badminton-item">
-          <img src={badminton} alt="Badminton" height="400"></img>
-        </figure>
-        <figure className="gallery__item border-item">
-          <div className="hobbies">
-            <p>
-              <b> Hi! Some things about me: </b>{' '}
-            </p>
-            <ul>
-              <li> I like singing, dancing, sketching, and paiting </li>
-              <li> I love sushi </li>
-              <li> I've done Taekwondo, fencing, badminton, and tennis </li>
-              <li> I love travelling </li>
-            </ul>
-          </div>
-        </figure>
-        <figure className="gallery__item mic-item">
-          <img src={mic} alt="Mic" height="400"></img>
-        </figure>
-        <figure className="gallery__item elephant-item">
-          <img src={elephant} alt="Elephant" height="400"></img>
-        </figure>
-      </div> */}
+      <JessicaSection title="nature-esque" imgs={[banff, reindeer, yellowstone]} />
+      <JessicaSection title="favorite cuisines" imgs={[pasta, gyro, sushi, tandoori]} />
+      <JessicaSection title="hobbies" imgs={[dancing, sketching, elephant]} />
+      <JessicaSection title="sports" imgs={[badminton, fencing, taekwondo]} />
     </div>
   );
 }
