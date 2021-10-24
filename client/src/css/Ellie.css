@@ -126,12 +126,13 @@ a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 a:hover {
   color: rgb(125, 168, 138);
   background-color: transparent;
-  text-shadow: black;
+  transform: scale(50px);
 }
 
 .mainframe {
@@ -142,4 +143,15 @@ a:hover {
 #myDiv {
   display: none;
   text-align: center;
+}
+
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
 }

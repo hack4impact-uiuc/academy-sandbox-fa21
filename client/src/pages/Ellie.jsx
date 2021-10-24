@@ -65,22 +65,23 @@ function Ellie() {
               jackson!
               <br />
               <br />
-              My philosophy: Never turning down a friendhsip.
+              My philosophy: Never turning down a friendship.
               <br />
               <br />I love rice. Any rice.
             </p>
-            <br />
-            <img className="web-picture" src={Img2} alt="" />
-            <img className="web-picture" src={Img3} alt="" />
-            <img className="web-picture" src={atlas} alt="" />
+            <div className="grow">
+              <img className="web-picture" src={Img2} alt="" />
+              <img className="web-picture" src={Img3} alt="" />
+              <img className="web-picture" src={atlas} alt="" />
 
-            <img className="web-picture" src={ayala} alt="" />
-            <img className="web-picture" src={em} alt="" />
-            <img className="web-picture" src={FBconcert} alt="" />
-            <br />
-            <img className="web-picture" src={ramen} alt="" />
-            <img className="web-picture" src={will} alt="" />
-            <img className="web-picture" src={ellie} alt="" />
+              <img className="web-picture" src={ayala} alt="" />
+              <img className="web-picture" src={em} alt="" />
+              <img className="web-picture" src={FBconcert} alt="" />
+              <br />
+              <img className="web-picture" src={ramen} alt="" />
+              <img className="web-picture" src={will} alt="" />
+              <img className="web-picture" src={ellie} alt="" />
+            </div>
           </div>
         </div>
       </div>
