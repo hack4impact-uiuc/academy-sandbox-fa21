@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://uiuc.hack4impact.org"><img src="https://raw.githubusercontent.com/hack4impact-uiuc/uiuc.hack4impact.org/master/public/images/colored-logo.svg" alt="hack4impact logo" width="150"></a>
   <br/>
-  MERN Template
+  Academy Sandbox
   </br>
 </h1>
 
@@ -9,8 +9,6 @@
     <img src="https://img.shields.io/github/checks-status/hack4impact-uiuc/mern-template/main?style=flat-square">
     <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
 </p>
-
-<h4 align="center">A project by <a href="https://uiuc.hack4impact.org/" target="_blank">Hack4Impact UIUC</a> in collaboration with <a href="https://pineapple.lol" target="_blank">pineapplelol.</a></h4>
 
 <p align="center">
   <a href="#background">Background</a> •
@@ -22,15 +20,7 @@
 
 ## Background
 
-MERN is one of the most widely used stacks for modern web development. Composed of [MongoDB](https://www.mongodb.com), [Express](https://expressjs.com), [React](https://reactjs.org), and [Node](https://nodejs.org/en/), MERN represents the full stack from the frontend to the backend.
-
-This template is a starting repository for setting up a MERN project. It includes directories for both the frontend and backend, as well as linting and testing workflows and settings.
-
-## Usage
-
-The latest version of this application can be found at [pineapple.lol](https://pineapple.lol).
-
-To install and set up locally, follow the instructions in the [`/client`](https://github.com/hack4impact-uiuc/mern_template/tree/main/client) and [`/api`](https://github.com/hack4impact-uiuc/mern_template/tree/main/api) directories.
+The Academy Sandbox is a website created for Hack4Impact's Academy Team to allow members to simultaneously apply the skills they learn in the Academy curriculum. Along with the practical application of concepts, members get accustomed to developing in the traditional Hack4Impact dev environment, including the git workflow, vscode, and other software developement collaboration skills (ie: pull request procedures, merge conflicts, etc.)
 
 ## Technologies
 
