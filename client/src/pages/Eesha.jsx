@@ -35,7 +35,7 @@ function Eesha() {
         </div>  
       </div>
       
-      <img src={appa} alt="appa flying" className="icon"></img>
+      <img src={appa} alt="appa flying" className="icon"/>
       
       <div className="links-container">
         <div className="link">

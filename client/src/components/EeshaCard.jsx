@@ -4,7 +4,7 @@ import '../css/Eesha.css';
 
 function EeshaCard (props) {
 
-    var {image, header, desc1, desc2} = props;
+    const {image, header, desc1, desc2} = props;
     return (
         <div>
             <img src={image} alt="eesha-card" /> 
