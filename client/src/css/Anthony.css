@@ -1,0 +1,124 @@
+.under-header {
+  padding-left: 64px;
+  padding-right: 64px;
+  background-color: #e7eaf6;
+  margin: 0;
+}
+
+.anthony-h2 {
+  word-spacing: em;
+  font-family: Georgia, serif;
+  font-size: 150%;
+  letter-spacing: 12px;
+  word-spacing: 0px;
+  color: #113f67;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  margin-top: 0px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.anthony-header {
+  display: flex;
+  margin: 0;
+  background-color: #989c9e;
+}
+
+.anthony-headshot {
+  border-radius: 50%;
+  margin: 1em;
+  margin-left: 64px;
+  border: 0.25em solid #3a3a3a;
+}
+
+.anthony-header-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0em;
+  border-top: 0em;
+  flex-grow: 100%;
+  align-items: center;
+  width: 100%;
+}
+
+.name-in-header {
+  margin: 0 auto;
+  border: 0 auto;
+  padding-top: 2%;
+  font-size: 2em;
+  justify-content: center;
+  letter-spacing: 8px;
+  word-spacing: 20px;
+  font-family: Georgia, serif;
+  font-size: 150%;
+  letter-spacing: 12px;
+  word-spacing: 0px;
+  color: #0f0f0f;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 0.1em white;
+}
+
+.anthony-link {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 0.1em;
+  word-spacing: 1em;
+  color: #113f67;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: lowercase;
+  text-shadow: 0px 0px 0.1em white;
+}
+
+.anthony-link:hover {
+  margin: 20px;
+  text-shadow: 0px 0px 0.1em transparent;
+  transition: all 0.2s ease;
+}
+
+.about-me-p {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin: 20px;
+  margin-left: 1%;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 2em;
+  letter-spacing: 0px;
+}
+
+.pictures-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.anthony-videos,
+.anthony-images {
+  border: 0.5em solid #3a3a3a;
+  border-radius: 10%;
+  margin: 0.2em;
+  width: 22.5%;
+  height: 22.5%;
+}
+
+.anthony-videos-container {
+  display: flex;
+  margin: 0.25em;
+  justify-content: center;
+}
